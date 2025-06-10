@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clientes</title>
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <style>
+        .parrafoContenido{
+            font-size: 1.5rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+            width: 90%;
+            margin: auto;
+        }
+
+        .parrafoContenido2{
+            font-size: 1.5rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: justify;
+            width: 85%;
+            margin: auto;
+        }
+        .h1{
+            font-size: 2.5rem;
+            font-family: "fontTitular", sans-serif;
+            font-size: 1.75rem;            text-align: justify;
+            margin: auto;
+            width: 90%;
+        }
+
+        #marcoCarousels{ /* MARCO DE LA PRESENTACION DEL CAROUSEL QUE ES EL CONTENEDOR QUE PERTENECE AL 'figure' */
+    width: 100%;
+    height: 25%; 
+    margin: auto;
+    text-align: center;
+}
+
+.fotoCarousels{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
+    max-width: 100%; /* NO CREZCA MÁS DEL 100% */
+
+}
+
+.menu{
+    min-height: 395vh;
+}
+
+
+
+/* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA MÓVILES <374px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* DISEÑO PARA DISPOSITIVOS >374 */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 374px){
+.menu{
+    min-height: fit-content;
+}
+    }
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* DISEÑO PARA DISPOSITIVOS >375px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 375px) and (max-width: 575px){
+  .menu{
+    min-height: fit-content;
+}
+    }
+
+
+/* DISEÑO PARA DISPOSITIVOS >576px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+  
+.menu{
+    min-height: fit-content;
+}
+    }
+
+/* DISEÑO PARA DISPOSITIVOS CON PANTALLAS/TABLETS DE MÁS DE >768px  */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  
+.menu{
+    min-height: fit-content;
+}
+    }
+
+/* BREAKPPOINT PARA PANTALLAS GRANDES DESDE >992px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+   
+.menu{
+    min-height: fit-content;
+}
+    }
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1200px) and (max-width: 1680px){
+    
+.menu{
+    min-height: fit-content;
+}
+    }
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 1681px) and (max-width: 2168px){
+   
+.menu{
+    min-height: fit-content;
+}
+    }
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 2169px) and (max-width: 2560px){
+.menu{
+    min-height: fit-content;
+}
+    }
+
+/* BREAKPPOINT PARA DISPOSITIVOS/TABLETS/PANTALLAS FÍN */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+    </style>
+</head>
+
+<body>
+    <header id="cabecera">
+        <figure id="contEnlaceCorreo">
+            <a href="mailto:jmlucasdelamo@gmail.com" id="marcoCorreo">
+                <img id="fotoCorreo" src="/img/correo-electronico.jpg" alt="correo electrónico"
+                    title="Correo Electrónico">
+            </a>
+        </figure>
+    </header>
+    <nav id="navegacion">
+        <section id="contPadreGridNav">
+            <section></section> <!-- ESPACIO EN BLANCO -->
+            <section>
+                <figure id="">
+                    <a id="marcoLogoCabecera" href="/index.html"><img id="fotoLogoCabecera" src="/img/logoCorporativoCabecera.png" alt=""></a>
+                </figure>
+            </section>
+            <section></section> <!-- ESPACIO EN BLANCO -->
+            <section>
+                <!-- MARKETING ONLINE -->
+                <section class="menuDesplegable">
+                    <div class="espacio7vh"></div>
+                    <button class="menuDesplegableBoton noFlecha">
+                        <a class="letraEnlaces" href="/marketing.html">Marketing</a>
+                    </button>
+                    <!-- <section class="menuDesplegableLista">
+                        <a href="#">Posicionamiento Web</a>
+                        <a href="#">Optimización Web</a>
+                        <a href="#">Marketing Digital</a>
+                        <a href="#">Publicidad Web</a>
+                        <a href="#">Hosting y Dominios</a>
+                        <a href="#">Aplicaciones Online</a>
+                    </section> -->
+                </section>
+            </section>
+            <section></section> <!-- ESPACIO EN BLANCO -->
+            <section>
+                <!-- DISEÑO WEB -->
+                <section class="menuDesplegable">
+                    <div class="espacio7vh"></div>
+                    <button class="menuDesplegableBoton noFlecha">
+                        <a class="letraEnlaces" href="/diseno-web.html">Diseño Web</a>
+                    </button>
+                    <!-- <section class="menuDesplegableLista">
+                        <a href="#">Diseño Web Corporativa</a>
+                        <a href="#">Tiendas Online</a>
+                        <a href="#">Diseño Responsive</a>
+                        <a href="#">Hosting y Dominios</a>
+                        <a href="#">Aplicaciones Web</a>
+                        <a href="#">Proyecto a Medida</a>
+                    </section> -->
+                </section>
+            </section>
+            <section></section> <!-- ESPACIO EN BLANCO -->
+            <section>
+                <!-- DISEÑO GRÁFICO -->
+                <section class="menuDesplegable">
+                    <div class="espacio7vh"></div>
+                    <button class="menuDesplegableBoton noFlecha">
+                        <a class="letraEnlaces" href="/diseno-grafico.html">Diseño Gráfico</a>
+                    </button>
+                    <!-- <section class="menuDesplegableLista">
+                        <a href="#">Logos</a>
+                        <a href="#">Tarjetas</a>
+                        <a href="#">Catálogos</a>
+                        <a href="#">Revistas</a>
+                        <a href="#">Packaging</a>
+                        <a href="#">Identidad Corporativa</a>
+                    </section> -->
+                </section>
+            </section>
+            <section></section> <!-- ESPACIO EN BLANCO -->
+            <section>
+                <!-- CLIENTES -->
+                <section class="menuDesplegable">
+                    <div class="espacio7vh"></div>
+                    <button class="menuDesplegableBoton noFlecha">
+                        <a class="letraEnlaces" href="/clientes.html">Clientes</a>
+                    </button>
+                </section>
+            </section>
+            <section></section> <!-- ESPACIO EN BLANCO -->
+            <section>
+                <!-- CONTACTO -->
+                <section class="menuDesplegable">
+                    <div class="espacio7vh"></div>
+                    <button class="menuDesplegableBoton noFlecha">
+                        <a class="letraEnlaces" href="/contacto.html">Contacto</a>
+                    </button>
+                </section>
+            </section>
+            <section></section> <!-- ESPACIO EN BLANCO -->
+            <section>
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <section class="menu-list">
+                    <ul>
+                        <li><a href="/marketing.html">Marketing</a></li>
+                        <li><a href="/diseno-web.html">Diseño Web</a></li>
+                        <li><a href="/diseno-grafico.html">Diseño Gráfico</a></li>
+                        <li><a href="/clientes.html">Clientes</a></li>
+                        <li><a href="/contacto.html">Contacto</a></li>
+                    </ul>
+                </section>
+            </section>
+    </nav>
+    <main class="menu">
+        <figure id="marcoCarousel">
+            <img class="fotoCarousel"  src="/img/istockphoto-1454530428-2048x2048.jpg"></img>
+        </figure>
+        <section>
+            <h1 class="h1">Descubre los mejores trabajos de diseño
+</h1>
+    <div class="espacio5vh">   </div>
+        <section id="menu">
+        <figure id="marcoCarousels">
+            <img class="fotoCarousels" src="/img/clientes1.png" alt="">
+        </figure>
+                <figure id="marcoCarousels">
+            <img class="fotoCarousels" src="/img/clientes2.png" alt="">
+        </figure>
+                <figure id="marcoCarousels">
+            <img class="fotoCarousels" src="/img/clientes3.png" alt="">
+        </figure>
+        </section>
+ 
+
+            
+
+<div class="espacio2vh"></div>
+        </section>
+    </main>
+    <footer>
+        <section id="contFlexPiePagina">
+                <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
+            <section>
+                <figure id="marcoLogoInferior">
+                    <img id="fotoLogoInferior" src="/img/logoCorporativoInferior.png" alt="logo corporativo" title="Logo Corporativo">
+                </figure>
+            </section>
+            <section>
+                <div class="espacio05vh"></div> <!-- ESPACIO EN BLANCO -->
+                <h3 id="logoCorpotativo">www.code48k.com</h3>
+            </section>
+            <section>
+                <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
+                    <h6 id="slogan">Diseño y desarrollo web con optimización para el posicionamiento en buscadores seo y
+                    para todos los dispositivos responsive design</h6>
+            </section>
+        </section>
+        <section>
+            <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
+            <small id="copyright">Copyright © 2025 www.code48k.com</small>
+        </section>
+    </footer>
+    <script src="/js/menuNavegacion.js"></script>
+</body>
+
+</html>

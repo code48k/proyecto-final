@@ -1,0 +1,30 @@
+:root{
+    --font-movil: 1.2rem;
+    --font-tablet: 1.2rem; 
+    --font-normal: 1.2rem; 
+    --font-grande: 1.2rem; 
+    --font-enorme: 1.4rem;
+    --color-body: white;
+    --color-header: #FF044F;
+    --color-footer: #FF044F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box!important;
+
+}
+
+body{
+    /* width: 100%;
+    height: 100%; */
+    overflow-x: hidden!important; 
+    /* background-color: yellow; */
+    max-width: 100dvw!important;
+    
+}
+
+header{
+    margin: 0 auto!important;
+}

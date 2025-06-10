@@ -1,0 +1,42 @@
+/* ETIQUETA SEMÁNTICA 'header' */
+#cabecera{ /* CABECERA DE LA PÁGINA WEB 'header'. */
+    background-color: var(--color-header); /* COLOR DEL FONDO DEL PIE DE LA CABECERA. */
+    width: 100%;  /* ANCHURA DE LA CABECERA AL 100%. */
+    height: 3.5vh; /* ALTURA DE LA CABECERA AL 3.5vh. */
+
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'header' INICIO */ /* BREAKPOINT PARA MÓVILES <375px */
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+    width: 80.5%;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#marcoCorreo{ /* MARCO DE LA FOTOGRAFÍA DEL CONTACTO ELECTRÓNICO, ES EL 'contEnlaceCorreo' DE LA IMAGEN QUE ESTA SITUADA EN LA CABECERA. */
+    width: 10%;
+    height: 90%; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
+    max-height: 80%; 
+    /* margin-top: 0.1rem; */
+        background-image: url('/img/clientes1.png');
+
+}
+
+/* CONTENIDO DEL 'header' FÍN */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

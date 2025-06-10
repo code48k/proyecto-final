@@ -1,0 +1,369 @@
+/* ETIQUETA SEMÁNTICA 'nav' */
+#navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+    background-color: rgb(255, 255, 255);
+    margin: auto; /* CENTRADO DEL MENU DE NAVEGACIÓN. */
+    width: 100%; /* ANCHURA DEL CONTENEDOR 'nav'. */
+    height: 7vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    display: flex;
+    justify-content: space-between;  
+    /* background-color: yellow; */
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'nav' INICIO */ /* BREAKPOINT PARA MÓVILES <375px */
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#marcoLogoCabecera{ /* MARCO DEL LOGO CORPORATIVO QUE ES EL CONTENEDOR DEL 'figure' */
+    width: 14.5%; /* DIMENSION DE LA ANCHURA DEL LOGO CORPORATIVO. */
+    height: 7vh; /* DIMENSION DE LA ALTURA DEL LOGO CORPORATIVO. */
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+    }
+
+#fotoLogoCabecera{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
+    max-height: 25%; /* NO CREZCA MÁS DEL 100% */
+    }
+
+#contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
+    display: grid;
+    grid-template-columns: 1px 15.9vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+    height: fit-content;
+    justify-self: stretch;
+    width: 100vw;
+    }
+
+#contPadreGridNav section{
+    height: fit-content;
+    }
+
+/* CONTENIDO DEL 'nav' FIN */ /* BREAKPOINT PARA MÓVILES <324px */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* DISEÑO PARA DISPOSITIVOS >374 */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 374px){
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 6.3vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+    
+    #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
+        grid-template-columns: 0px 15.9vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        width: 100vw;
+    }
+
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 60%!important; /* NO CREZCA MÁS DEL 60% */
+    }
+
+    .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
+        display: none!important;
+    } 
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* DISEÑO PARA DISPOSITIVOS >375px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 375px) and (max-width: 575px){
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 6.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 60%!important; /* NO CREZCA MÁS DEL 60% */
+    }
+
+    .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
+        display: none!important;
+    } 
+}
+
+/* DISEÑO PARA DISPOSITIVOS >576px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 6.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 62.5%!important; /* NO CREZCA MÁS DEL 62.5% */
+    }
+
+    .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
+        display: none!important;
+    } 
+}
+
+/* DISEÑO PARA DISPOSITIVOS CON PANTALLAS/TABLETS DE MÁS DE >768px  */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 7vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 75%!important; /* NO CREZCA MÁS DEL 75% */
+    }
+
+    .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
+        display: none!important;
+    } 
+}
+
+/* BREAKPPOINT PARA PANTALLAS GRANDES DESDE >992px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 50%!important; /* NO CREZCA MÁS DEL 50% */
+    }
+    
+    .menu-btn{ /* OCULTAMOS EL MENU HAMBURGUESA. */
+        display: none!important;
+    }  
+}
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1200px) and (max-width: 1680px) {
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 7vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 90%!important; /* NO CREZCA MÁS DEL 90% */
+    }
+
+    .menu-btn{ /* OCULTAMOS EL MENU HAMBURGUESA. */
+        display: none!important;
+    }  
+}
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 1681px) and (max-width: 2168px) {
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 6.9vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+    
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 100%!important; /* NO CREZCA MÁS DEL 100% */
+    }   
+
+    .menu-btn{ /* OCULTAMOS EL MENU HAMBURGUESA. */
+        display: none!important;
+    }  
+}
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 2169px) and (max-width: 2560px) {
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 6.9vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+    
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 100%!important;; /* NO CREZCA MÁS DEL 75% */
+    }
+    .menu-btn{ /* OCULTAMOS EL MENU HAMBURGUESA. */
+        display: none!important;
+    }  
+}
+
+/* BREAKPPOINT PARA DISPOSITIVOS/TABLETS/PANTALLAS FÍN */
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* MENU DESPLEGABLE INICIO */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.letraEnlaces{ /* CAMBIO DEL TAMAÑO DE LETRA*/
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+}
+
+.menuDesplegable{
+    width: 12.8vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menuDesplegableBoton{ /* ESTILO Y PROPIEDADES PARA CADA UNO DE LOS BOTONES. */
+    width: 100vw;
+    height: 25%;
+    background-color: #5f676e;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.85rem;
+}
+
+.menuDesplegableBoton::after{ /* ESTILO Y PROPIEDADES DEL SIMBOLO DE LA FLECHITA DE LOS BOTONES. */
+    content: " ▾";
+    font-size: 17px;
+}
+
+.menuDesplegableLista{ /* ESTILO Y PROPIEDAD PARA EL MENÚ DEL DESPLEGABLE. */
+    position: absolute;
+    top: 80%;
+    left: 0;
+    background-color: #343a40;
+    border-radius: 6px;
+    margin-top: 5px;
+    overflow: hidden;
+    display: none;
+    min-width: 200px;
+    z-index: 999;
+}
+
+.menuDesplegable.abierto .menuDesplegableLista{
+    display: block;
+}
+
+.menuDesplegableLista a{
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menuDesplegableLista a:hover{ /* ESTILO Y PROPIEDAD PARA CUANDO PASAMOS CON EL RATON POR ENCIMA, SE COLOREA DE OTRO COLOR DISTINTO AL COLOR DEL BOTÓN. */
+    background-color: #52575C;
+}
+
+/* SI QUIERÉS QUE ALGUNOS BOTONES NO TENGAN LA FLECHA DEL MENÚ DESPLEGABLE! */
+.noFlecha::after{
+    content: "";
+}
+
+/* MENU DESPLEGABLE FIN */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* MENÚ HAMBURGUESA INICIO */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#menu-toggle{ /* OCULTAR CHECKBOX */
+    display: none;
+}
+
+.menu-btn{ /* MENÚ HAMBURGUESA */
+    position: fixed;
+    width: 2.25rem;
+    height: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 1001;
+    position: relative;
+    top: 0.68rem;
+    left: -0.1rem;
+}
+
+.menu-btn span{
+    height: 4px;
+    width: 30px;
+    background: #000;
+    border-radius: 2px;
+    transition: 0.3s;
+}
+
+
+#menu-toggle:checked + .menu-btn span:nth-child(1){ /* ANIMACIÓN HAMBURGUESA A CRUZ */
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+#menu-toggle:checked + .menu-btn span:nth-child(2){ 
+    opacity: 0;
+}
+
+#menu-toggle:checked + .menu-btn span:nth-child(3){
+    transform: rotate(-45deg) translate(7px, -7px);
+}
+
+.menu-list{ /* MENÚ LATERAL */
+    position: fixed;
+    top: -5px;
+    right: -50%;
+    width: 35%;
+    height: 55vh;
+    background: rgba(173, 74, 74, 0.08);
+    backdrop-filter: blur(0.5px);
+    transition: right 0.4s ease;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2.5rem;
+}
+a{
+        text-decoration: none;
+        color: black;
+
+}
+
+#menu-toggle:checked ~ .menu-list{
+    right: 0;
+}
+
+.menu-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list li{
+    margin: 1.2rem 0;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    color: #000;
+    position: relative;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.menu-list li::before{
+    content: "";
+    position: absolute;
+    left: -1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    /* width: 7px;
+    height: 7px; */  /* bolos*/
+    background: #000;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.menu-list li:hover{
+    color: #000000;
+}
+
+.menu-list li:hover::before{
+    transform: translateY(-50%) scale(1.5);
+}
+
+/* MENÚ HAMBURGUESA FÍN */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
