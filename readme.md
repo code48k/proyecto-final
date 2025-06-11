@@ -8,7 +8,7 @@ Explica qué hace el proyecto, por qué existe y qué problema resuelve. Sé cla
 
 ## 🚀 Demo
 
-[Enlace a la demo](https://code48k) o una captura de pantalla si aplica.
+[Enlace a la demo](https://code48k.netlify.app) o una captura de pantalla si aplica.
 
 ## ⚙️ Tecnologías
 
