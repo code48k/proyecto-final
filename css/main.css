@@ -99,6 +99,29 @@ main{ /* CONTENIDO DE LA PÁGINA WEB 'main'. */
 /* SEPARACIONES FIN */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+/* SEPARACIONES INICIO */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #FF044F;
+    width: 85%;
+    margin: auto;
+
+}
+
+strong{
+    color: #FF044F;
+}
+
+
+/* SEPARACIONES FIN */
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* CAROUSEL INICIO */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -138,7 +161,7 @@ main{ /* CONTENIDO DE LA PÁGINA WEB 'main'. */
 }
 
 .fotoCarousel{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
-    max-width: 100%; /* NO CREZCA MÁS DEL 100% */
+    max-width: 100vw; /* NO CREZCA MÁS DEL 100% */
 
 }
 
@@ -163,12 +186,28 @@ main{ /* CONTENIDO DE LA PÁGINA WEB 'main'. */
     width: 75%;
 }
 
+.descripcionTitular2{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
 .enlaceDescripcion{ /* VÍNCULOS DE LOS ENLACES QUE SE ENCUENTRA EN LA DESCRIPCION DEL TITULAR. */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #FF044F;
     font-weight: 900;
     text-decoration: none;
     width: 0%;
+}
+
+.enlaceDescripcion2{ /* VÍNCULOS DE LOS ENLACES QUE SE ENCUENTRA EN LA DESCRIPCION DEL TITULAR. */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FF044F;
+    font-weight: 900;
+    text-decoration: none;
+    float: left;
 }
 
 #contGridServicios{ /* CONTENEDOR GRID PARA PODER REALIZAR EÑ RESPONSIVO A LAS IMAGENES QUE SE VISUALIZE EN FILAS. */

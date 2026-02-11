@@ -28,7 +28,7 @@
 
 #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
     display: grid;
-    grid-template-columns: 1px 15.9vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+    grid-template-columns: 1px 28.75vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
     height: fit-content;
     justify-self: stretch;
     width: 100vw;
@@ -37,6 +37,11 @@
 #contPadreGridNav section{
     height: fit-content;
     }
+
+.menu-list{
+    position: relative;
+    top: -2rem;
+}
 
 /* CONTENIDO DEL 'nav' FIN */ /* BREAKPOINT PARA MÓVILES <324px */
 
@@ -61,7 +66,11 @@
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
         display: none!important;
-    } 
+    }
+    .menu-list{
+    position: relative;
+    top: -2rem;
+} 
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -81,6 +90,10 @@
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
         display: none!important;
     } 
+    .menu-list{
+    position: relative;
+    top: -2rem;
+}
 }
 
 /* DISEÑO PARA DISPOSITIVOS >576px */
@@ -139,11 +152,11 @@
 
 @media screen and (min-width: 1200px) and (max-width: 1680px) {
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-        height: 7vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+        height: 7.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 90%!important; /* NO CREZCA MÁS DEL 90% */
+        max-height: 100%!important; /* NO CREZCA MÁS DEL 90% */
     }
 
     .menu-btn{ /* OCULTAMOS EL MENU HAMBURGUESA. */
@@ -304,18 +317,25 @@
 
 .menu-list{ /* MENÚ LATERAL */
     position: fixed;
-    top: -5px;
+   
+    /* SEPARAS EL MENU DESDE ARRIBA EN 'rem' */
+    top: 5rem;
+    /* LE INDICAS DONDE SE GUARDA CUANDO SE ESCONDE */
     right: -50%;
-    width: 35%;
+    /* LE INDICAS EL ANCHO QUE VA A TENER EL MENÚ */
+    width: 45%;
+   
     height: 55vh;
     background: rgba(173, 74, 74, 0.08);
-    backdrop-filter: blur(0.5px);
-    transition: right 0.4s ease;
+    backdrop-filter: blur(5px);
+    transition: right 0.5s ease;
     z-index: 1000;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 2.5rem;
+    border-radius: 5px;
+    box-shadow: -5px 5px 10px 1px lightgrey;
 }
 a{
         text-decoration: none;
