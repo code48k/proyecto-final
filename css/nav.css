@@ -3,7 +3,7 @@
     background-color: rgb(255, 255, 255);
     margin: auto; /* CENTRADO DEL MENU DE NAVEGACIÓN. */
     width: 100%; /* ANCHURA DEL CONTENEDOR 'nav'. */
-    height: 7vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    height: 5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     display: flex;
     justify-content: space-between;  
     /* background-color: yellow; */
@@ -13,6 +13,16 @@
 
 /* CONTENIDO DEL 'nav' INICIO */ /* BREAKPOINT PARA MÓVILES <375px */
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+#navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+    background-color: rgb(255, 255, 255);
+    margin: auto; /* CENTRADO DEL MENU DE NAVEGACIÓN. */
+    width: 100%; /* ANCHURA DEL CONTENEDOR 'nav'. */
+    height: 7vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    display: flex;
+    justify-content: space-between;  
+    /* background-color: yellow; */
+}
 
 #marcoLogoCabecera{ /* MARCO DEL LOGO CORPORATIVO QUE ES EL CONTENEDOR DEL 'figure' */
     width: 2.5%; /* DIMENSION DE LA ANCHURA DEL LOGO CORPORATIVO. */
@@ -52,7 +62,7 @@
 
 @media screen and (max-width: 374px){
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-        height: 6.3vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+        height: 7.1vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
     
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
