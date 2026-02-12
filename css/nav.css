@@ -18,7 +18,7 @@
     background-color: rgb(255, 255, 255);
     margin: auto; /* CENTRADO DEL MENU DE NAVEGACIÓN. */
     width: 100%; /* ANCHURA DEL CONTENEDOR 'nav'. */
-    height: 7vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    height: 5.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     display: flex;
     justify-content: space-between;  
     /* background-color: yellow; */
@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 374px){
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-        height: 7.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+        height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
     
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
@@ -90,7 +90,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 575px){
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-        height: 7.2vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+        height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
 
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
