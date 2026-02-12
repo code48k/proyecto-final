@@ -2,7 +2,7 @@
 #cabecera{ /* CABECERA DE LA PÁGINA WEB 'header'. */
     background-color: var(--color-header); /* COLOR DEL FONDO DEL PIE DE LA CABECERA. */
     width: 100%;  /* ANCHURA DE LA CABECERA AL 100%. */
-    height: 4.8vh; /* ALTURA DE LA CABECERA AL 3.5vh. */
+    height: 3.5vh; /* ALTURA DE LA CABECERA AL 3.5vh. */
 
 }
 
@@ -12,16 +12,18 @@
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-#telefonoContacto{
-    text-align: center;
+#telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.1rem;
     font-weight: 900;
     color: white;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.5rem;
 }
 
 #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-    width: 80.5%;
+    width: 95%;
     margin: auto;
     height: 100%;
     display: flex;
@@ -31,7 +33,7 @@
 }
 
 #marcoCorreo{ /* MARCO DE LA FOTOGRAFÍA DEL CONTACTO ELECTRÓNICO, ES EL 'contEnlaceCorreo' DE LA IMAGEN QUE ESTA SITUADA EN LA CABECERA. */
-    width: 5%;
+    width: 7.8%;
     height: 78%; 
     display: flex;
     justify-content: flex-end;
