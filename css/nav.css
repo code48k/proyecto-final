@@ -15,7 +15,7 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 #marcoLogoCabecera{ /* MARCO DEL LOGO CORPORATIVO QUE ES EL CONTENEDOR DEL 'figure' */
-    width: 14.5%; /* DIMENSION DE LA ANCHURA DEL LOGO CORPORATIVO. */
+    width: 24.5%; /* DIMENSION DE LA ANCHURA DEL LOGO CORPORATIVO. */
     height: 7vh; /* DIMENSION DE LA ALTURA DEL LOGO CORPORATIVO. */
     display: flex;
     align-items: center;
@@ -23,7 +23,7 @@
     }
 
 #fotoLogoCabecera{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
-    max-height: 25%; /* NO CREZCA MÁS DEL 100% */
+    max-height: 100%; /* NO CREZCA MÁS DEL 100% */
     }
 
 #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
