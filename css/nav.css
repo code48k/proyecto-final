@@ -62,7 +62,7 @@
 
 @media screen and (max-width: 374px){
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-        height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    height: 5.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
     
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
@@ -77,6 +77,7 @@
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
         display: none!important;
     }
+
     .menu-list{
     position: relative;
     top: -2rem;
