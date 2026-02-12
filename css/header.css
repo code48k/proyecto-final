@@ -14,10 +14,10 @@
 
 #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 900;
     color: white;
-    margin-right: 0.5rem;
+    margin-right: 0.75rem;
 }
 
 #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
@@ -40,7 +40,7 @@
 }
 
 #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
-    max-height: 90%; 
+    max-height: 95%; 
     /* margin-top: 0.1rem; */
         background-image: url('/img/clientes1.png');
 
