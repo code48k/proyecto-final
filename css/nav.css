@@ -45,7 +45,7 @@
 
     .menu-btn{ /* MENÚ HAMBURGUESA */
 
-    top: 0.8rem;
+    top: 0.9rem;
     
 }
 
@@ -86,7 +86,7 @@
 
     .menu-btn{ /* MENÚ HAMBURGUESA */
 
-    top: 0.8rem;
+    top: 0.9rem;
     
 }
 }
@@ -313,7 +313,7 @@
     cursor: pointer;
     z-index: 1001;
     position: relative;
-    top: 0.92rem;
+    /* top: 0.92rem; */
     left: -0.1rem;
 }
 
