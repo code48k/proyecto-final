@@ -15,13 +15,8 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-    background-color: rgb(255, 255, 255);
-    margin: auto; /* CENTRADO DEL MENU DE NAVEGACIÓN. */
-    width: 100%; /* ANCHURA DEL CONTENEDOR 'nav'. */
-        height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
-    display: flex;
-    justify-content: space-between;  
-    /* background-color: yellow; */
+    height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+
 }
 
 #marcoLogoCabecera{ /* MARCO DEL LOGO CORPORATIVO QUE ES EL CONTENEDOR DEL 'figure' */
