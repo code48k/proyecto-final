@@ -90,7 +90,7 @@
 
 @media screen and (min-width: 375px) and (max-width: 575px){
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-        height: 8vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+        height: 7.2vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
 
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
