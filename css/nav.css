@@ -61,7 +61,7 @@
     }
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 60%!important; /* NO CREZCA MÁS DEL 60% */
+        max-height: 70%!important; /* NO CREZCA MÁS DEL 60% */
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
