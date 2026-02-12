@@ -15,11 +15,11 @@
 /*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 #marcoLogoCabecera{ /* MARCO DEL LOGO CORPORATIVO QUE ES EL CONTENEDOR DEL 'figure' */
-    width: 24.5%; /* DIMENSION DE LA ANCHURA DEL LOGO CORPORATIVO. */
+    width: 2.5%; /* DIMENSION DE LA ANCHURA DEL LOGO CORPORATIVO. */
     height: 7vh; /* DIMENSION DE LA ALTURA DEL LOGO CORPORATIVO. */
     display: flex;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 1rem;
     }
 
 #fotoLogoCabecera{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
@@ -28,7 +28,7 @@
 
 #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
     display: grid;
-    grid-template-columns: 0px 37vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+    grid-template-columns: 0px 35.9vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
     height: fit-content;
     justify-self: stretch;
     width: 100vw;
