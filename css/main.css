@@ -602,10 +602,9 @@ strong{
     }
 
     #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
-        font-size: 3rem;
+        font-size: 4rem;
         padding-bottom: 0.5rem;
-        
-}
+    }
     
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 4.25rem;
@@ -632,13 +631,14 @@ strong{
     }
 
     #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 2.7rem;
+        font-size: 3.75rem;
         margin: auto;
         width: 87%;
+        /* padding-bottom: 2.5rem; */
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
@@ -667,14 +667,26 @@ strong{
         position: relative;
         z-index: 2;
     }
+
+    #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 3.75rem;
+        padding-bottom: 0.5rem;
+        width: 95%;
+    }
+
+    #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 4rem;
+        padding-bottom: 0.5rem;
+    }
     
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 4.25rem;
     }
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        width: 75%;
+        width: 90%;
         font-size: 1.5rem;
+
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
@@ -698,15 +710,104 @@ strong{
 
     #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
         font-size: 2.75rem;
+        width: 90%;
+        margin: auto;
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
         min-height: 5vh;
     }
+
+    h3{
+    font-size: 1.5rem;
+
+}
 }
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 1681px) and (max-width: 2168px){
+        .card {
+        position: relative;
+    }
+
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-text {
+        position: relative;
+        z-index: 2;
+    }
+
+    #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 3.75rem;
+        padding-bottom: 0.5rem;
+        width: 95%;
+    }
+
+    #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 4rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
+        font-size: 4.25rem;
+    }
+
+    .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
+        width: 90%;
+        font-size: 1.5rem;
+
+    }
+
+    .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .descripcionServicios{ /* DESCRIPCIÓN DEL TITULAR CONTROL DEL TAMAÑO. */
+        width: 80%;
+        font-size: 1.4rem;
+    }
+
+    #contGridServicios{ /* CONTENEDOR GRID PARA PODER REALIZAR EÑ RESPONSIVO A LAS IMAGENES QUE SE VISUALIZE EN 2 COLUMNAS. */
+        display: grid;
+        grid-template-columns: repeat(4, 25%); 
+    }
+
+    #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
+        font-size: 3.5rem;
+    }
+
+    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
+        font-size: 2.75rem;
+        width: 90%;
+        margin: auto;
+    }
+
+    #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
+        min-height: 5vh;
+    }
+
+    h3{
+    font-size: 1.5rem;
+
+}
+}
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
+/* 
 
 /* MENU DESPLEGABLE INICIO */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

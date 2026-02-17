@@ -101,10 +101,42 @@
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
         width: 91.75%;
-
+    }
     
 }
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1200px) and (max-width: 1680px){
+    #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
+        font-size: 1.7rem;
+        margin-right: -3.25rem;
+    }
+
+    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+        width: 95.2%;
+    }
 }
+
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 1681px) and (max-width: 2168px){
+    #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
+        font-size: 1.7rem;
+        margin-right: -3.25rem;
+    }
+
+    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+        width: 99.2%;
+    }
+}
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
+/* 
 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */

@@ -202,9 +202,25 @@
     .menu-btn{ /* OCULTAMOS EL MENU HAMBURGUESA. */
         display: none!important;
     }  
+
+    #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
+        grid-template-columns: 0px 45.5vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        width: 100vw;
+    }
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (min-width: 1681px) and (max-width: 2168px){
+    
+}
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
+/* 
 
 /* MENU DESPLEGABLE INICIO */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
