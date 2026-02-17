@@ -431,6 +431,8 @@ strong{
     .descripcionServicios{ /* DESCRIPCIÓN DEL TITULAR CONTROL DEL TAMAÑO. */
         width: 75%;
         font-size: 1.3rem;
+        padding-bottom: 2.5rem;
+
     }
 
     #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
