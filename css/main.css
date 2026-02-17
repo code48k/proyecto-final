@@ -751,7 +751,7 @@ strong{
     }
 
     #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
-        font-size: 3.75rem;
+        font-size: 6rem;
         padding-bottom: 0.5rem;
         width: 95%;
     }
@@ -791,9 +791,10 @@ strong{
     }
 
     #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 2.75rem;
+        font-size: 6.75rem;
         width: 90%;
         margin: auto;
+        padding-bottom: 4rem;
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
