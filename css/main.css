@@ -274,10 +274,10 @@ strong{
 }
 
 #aptdo2{ /* FONDO ULR CON ANIMACIÓN FIXED. */
-	background: url('/img/cover6.jpg') ;
+	background: url('/img/cover6.png') ;
 	background-attachment: fixed;
 	background-size: cover;
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
 }
 
 #titularFondo{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
@@ -286,7 +286,8 @@ strong{
     font-size: 2.8rem;
     text-align: center;
     font-family: "fontTitular";
-    color: rgb(255, 255, 255)!important;
+    color: rgb(24, 24, 24)!important;
+    /* border: blanchedalmond 1px solid; */
     
 }
 
@@ -342,16 +343,39 @@ strong{
     }
 
     #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
-        font-size: 2.25rem;
+        padding-top: 0.25rem;
+        font-size: 1.45rem;
+
     }
 
     #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 1.7rem;
+        font-size: 1.35rem;
+        padding-bottom: 0.5rem;
+
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
         min-height: 5vh;
     }
+
+
+    .card {
+        position: relative;
+    }
+
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+    }
+
+    .card-text {
+        position: relative;
+        z-index: 2;
+}
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
