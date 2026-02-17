@@ -317,6 +317,24 @@ strong{
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 374px){
+    .card {
+        position: relative;
+    }
+
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+    }
+
+    .card-text {
+        position: relative;
+        z-index: 2;
+    }
+
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 100%;
         font-size: 1.55rem;
@@ -354,12 +372,17 @@ strong{
 
     }
 
-    #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
-        min-height: 5vh;
-    }
 
 
-    .card {
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* DISEÑO PARA DISPOSITIVOS >375px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 375px) and (max-width: 575px){
+        .card {
         position: relative;
     }
 
@@ -375,15 +398,13 @@ strong{
     .card-text {
         position: relative;
         z-index: 2;
-}
-}
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-/* DISEÑO PARA DISPOSITIVOS >375px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 375px) and (max-width: 575px){
+    }
+    
+    .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
+        width: 100%;
+        font-size: 1.55rem;
+    }
+    
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 1.85rem;
     }
