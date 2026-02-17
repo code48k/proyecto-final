@@ -41,6 +41,11 @@ span{
     color: white;
     font-size: 0.45rem;
     font-weight: 900;
+    text-align: left;
+}
+
+h3{
+    text-align: left;
 }
 
 @font-face{ /* FUENTE TIPOGRÁFICA PARA EL PIE DE PÁGINA*/
@@ -92,6 +97,7 @@ span{
 
     #logoCorpotativo{ /* www.code48k.com */
         font-size: 0.45rem;
+        /* text-align: left; */
     }
 
     #slogan{ /* SLOGAN DEL PIE DE PÁGINA WEB EN LA PARTE INFERIOR. */

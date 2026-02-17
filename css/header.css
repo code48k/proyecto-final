@@ -14,7 +14,7 @@
 
 #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 900;
     color: white;
     margin-right: 0.75rem;
@@ -54,9 +54,10 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 374px){
-    
-
-
+    #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
+        font-size: 1.2rem;
+        margin-right: 0.75rem;
+    }
 
 }
 
@@ -66,7 +67,11 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 375px) and (max-width: 575px){
-    
+    #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
+        font-size: 1.2rem;
+        margin-right: 0.75rem;
+    }
+
 }
 
 /* DISEÑO PARA DISPOSITIVOS >576px */
@@ -100,7 +105,7 @@
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-        width: 91.75%;
+        width: 94.95%;
     }
     
 }
@@ -124,10 +129,10 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-@media screen and (max-width: 1681px){
+@media screen and (min-width: 1681px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
         font-size: 2rem;
-        margin-right: -5.5rem;
+        margin-right: .5rem;
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
