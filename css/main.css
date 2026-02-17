@@ -102,7 +102,13 @@ main{ /* CONTENIDO DE LA PÁGINA WEB 'main'. */
 /* SEPARACIONES INICIO */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+h3{
+    font-size: 1.75rem;
+ 
+    width: 85%;
+    margin: auto;
 
+}
 
 h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -436,6 +442,42 @@ strong{
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 576px) and (max-width: 767px){
+    .card {
+        position: relative;
+    }
+
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-text {
+        position: relative;
+        z-index: 2;
+    }
+
+    #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 2.5rem;
+        padding-bottom: 0.5rem;
+    
+    }
+
+    #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        color: white;
+        font-weight: 900;
+        font-size: 2rem;
+        text-align: center;
+        font-family: "fontTitular";
+        color: rgb(117, 117, 117);
+        text-shadow: 2px 2px rgb(0, 0, 0)!important; /* SOMBRA CON UN BORDE NEGRO DE 2PX. */
+        padding-bottom: 0.5rem;
+    
+    }   
+
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 2.80rem;
     }
@@ -472,6 +514,29 @@ strong{
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 768px) and (max-width: 991px){
+    .card {
+        position: relative;
+    }
+
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-text {
+        position: relative;
+        z-index: 2;
+    }
+
+    #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 3rem;
+        padding-bottom: 0.5rem;
+    }
+    
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 3.75rem;
     }
@@ -513,13 +578,36 @@ strong{
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 992px) and (max-width: 1199px){
+    .card {
+        position: relative;
+    }
+
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-text {
+        position: relative;
+        z-index: 2;
+    }
+
+    #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 3.75rem;
+        padding-bottom: 0.5rem;
+    }
+    
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 4.25rem;
     }
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 87%;
-        font-size: 1.5rem;
+        font-size: 1.75rem;
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
@@ -542,7 +630,9 @@ strong{
     }
 
     #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 2.3rem;
+        font-size: 2.7rem;
+        margin: auto;
+        width: 87%;
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
@@ -554,6 +644,24 @@ strong{
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 1200px) and (max-width: 1680px){
+    .card {
+        position: relative;
+    }
+
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-text {
+        position: relative;
+        z-index: 2;
+    }
+    
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 4.25rem;
     }
