@@ -124,14 +124,14 @@
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
-@media screen and (min-width: 1681px) and (max-width: 2168px){
+@media screen and (max-width: 1681px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 1.7rem;
-        margin-right: -3.25rem;
+        font-size: 1.95rem;
+        margin-right: -5.5rem;
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-        width: 99.2%;
+        width: 96%;
     }
 }
 

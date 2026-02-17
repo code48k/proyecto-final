@@ -216,7 +216,22 @@
 
 
 @media screen and (min-width: 1681px) and (max-width: 2168px){
-    
+    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
+        height: 7.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
+    }
+
+    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
+        max-height: 100%!important; /* NO CREZCA MÁS DEL 90% */
+    }
+
+    .menu-btn{ /* OCULTAMOS EL MENU HAMBURGUESA. */
+        display: none!important;
+    }  
+
+    #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
+        grid-template-columns: 0px 46vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        width: 100vw;
+    }
 }
 
 /* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
