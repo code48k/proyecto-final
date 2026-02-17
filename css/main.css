@@ -600,6 +600,12 @@ strong{
         font-size: 3.75rem;
         padding-bottom: 0.5rem;
     }
+
+    #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 3rem;
+        padding-bottom: 0.5rem;
+        
+}
     
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 4.25rem;

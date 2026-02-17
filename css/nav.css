@@ -173,7 +173,7 @@
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
         max-height: 85%!important; /* NO CREZCA MÁS DEL 50% */
-        margin-left: 1rem;
+        margin-left: 0.5rem;
         padding-bottom: 0.25rem;
     }
     
@@ -182,7 +182,7 @@
     }  
 
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
-        grid-template-columns: 0px 45.5vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        grid-template-columns: 0px 44vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
         width: 100vw;
     }
 }

@@ -96,8 +96,14 @@
 @media screen and (min-width: 992px) and (max-width: 1199px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
         font-size: 1.7rem;
-        margin-right: -2.15rem;
+        margin-right: -2.1rem;
     }
+
+    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+        width: 91.75%;
+
+    
+}
 }
 
 
