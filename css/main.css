@@ -360,6 +360,18 @@ strong{
         grid-template-rows: repeat(4, 1fr); 
     }
 
+    .apartado2{ /* DIMENSIONES DEL FONDO DE LA IMAGEN ESTÁTICA 'fixed'. */
+    width: 100vw;
+	min-height:30vh;
+}
+
+#aptdo2{ /* FONDO ULR CON ANIMACIÓN FIXED. */
+	background: url('/img/cover6.png') ;
+	background-attachment: fixed;
+	background-size: cover;
+    /* filter: grayscale(100%); */
+}
+
     #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
         padding-top: 0.25rem;
         font-size: 1.45rem;
