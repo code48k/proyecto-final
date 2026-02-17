@@ -327,7 +327,7 @@ strong{
         left: 0;
         width: 100%;
         height: 100%;
-        /* object-fit: cover; */
+        object-fit: cover;
     }
 
     .card-text {
@@ -337,12 +337,12 @@ strong{
 
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 100%;
-        font-size: 1.55rem;
+        font-size: 1.95rem;
     }
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 75%;
-        font-size: 1.2rem;
+        font-size: 1.35rem;
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
@@ -361,25 +361,25 @@ strong{
     }
 
     .apartado2{ /* DIMENSIONES DEL FONDO DE LA IMAGEN ESTÁTICA 'fixed'. */
-    width: 100vw;
-	min-height:30vh;
-}
+        width: 100vw;
+        min-height:30vh;
+    }
 
-#aptdo2{ /* FONDO ULR CON ANIMACIÓN FIXED. */
-	background: url('/img/cover6.png') ;
-	background-attachment: fixed;
-	background-size: cover;
+    #aptdo2{ /* FONDO ULR CON ANIMACIÓN FIXED. */
+        background: url('/img/cover6.png') ;
+        background-attachment: fixed;
+        background-size: cover;
     /* filter: grayscale(100%); */
-}
+    }
 
     #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
         padding-top: 0.25rem;
-        font-size: 1.45rem;
+        font-size: 1.7rem;
 
     }
 
     #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 1.35rem;
+        font-size: 1.25rem;
         padding-bottom: 0.5rem;
 
     }
@@ -394,7 +394,7 @@ strong{
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 375px) and (max-width: 575px){
-        .card {
+    .card {
         position: relative;
     }
 
@@ -404,17 +404,12 @@ strong{
         left: 0;
         width: 100%;
         height: 100%;
-        /* object-fit: cover; */
+        object-fit: cover;
     }
 
     .card-text {
         position: relative;
         z-index: 2;
-    }
-    
-    .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        width: 100%;
-        font-size: 1.55rem;
     }
     
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
@@ -608,91 +603,6 @@ strong{
     }
 }
 
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-
-@media screen and (min-width: 1681px) and (max-width: 2168px){
-    .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        font-size: 6.25rem;
-    }
-
-    .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        width: 85%;
-        font-size: 1.75rem;
-    }
-
-    .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
-        width: 100%;
-        font-size: 2.37rem;
-    }
-
-    .descripcionServicios{ /* DESCRIPCIÓN DEL TITULAR CONTROL DEL TAMAÑO. */
-        width: 85%;
-        font-size: 1.8rem;
-    }
-
-    #contGridServicios{ /* CONTENEDOR GRID PARA PODER REALIZAR EÑ RESPONSIVO A LAS IMAGENES QUE SE VISUALIZE EN COLUMNAS. */
-        display: grid;
-        justify-self: center;
-        grid-template-columns: repeat(4, 25%); 
-    }
-
-    #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
-        font-size: 5rem;
-    }
-
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 3.5rem;
-    }
-
-    #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
-        min-height: 5vh;
-    }
-}
-
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 2169px) and (max-width: 2560px){
-    .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        font-size: 8.5rem;
-    }
-
-    .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        width: 80%;
-        font-size: 2rem;
-    }
-
-    .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
-        width: 100%;
-        font-size: 2.90rem;
-    }
-
-    .descripcionServicios{ /* DESCRIPCIÓN DEL TITULAR CONTROL DEL TAMAÑO. */
-        width: 80%;
-        font-size: 2.2rem;
-    }
-
-    #contGridServicios{ /* CONTENEDOR GRID PARA PODER REALIZAR EÑ RESPONSIVO A LAS IMAGENES QUE SE VISUALIZE EN COLUMNAS. */
-        display: grid;
-        grid-template-columns: repeat(4, 25%); 
-    }
-
-    #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
-        font-size: 6.5rem;
-    }
-
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 4.75rem;
-    }
-
-    #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
-        min-height: 5vh; 
-    }
-}
-
-/* BREAKPPOINT PARA DISPOSITIVOS/TABLETS/PANTALLAS FÍN */
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
