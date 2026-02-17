@@ -132,7 +132,7 @@
 @media screen and (min-width: 1681px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
         font-size: 2rem;
-        margin-right: .5rem;
+        margin-right: -5rem;
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */

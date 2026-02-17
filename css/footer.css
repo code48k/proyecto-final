@@ -44,10 +44,6 @@ span{
     text-align: left;
 }
 
-h3{
-    text-align: left;
-}
-
 @font-face{ /* FUENTE TIPOGRÁFICA PARA EL PIE DE PÁGINA*/
     font-family: "fontPiePagina";
     src: url(/fonts/Montserrat-Italic-VariableFont_wght.ttf);
@@ -97,7 +93,7 @@ h3{
 
     #logoCorpotativo{ /* www.code48k.com */
         font-size: 0.45rem;
-        /* text-align: left; */
+        text-align: left;
     }
 
     #slogan{ /* SLOGAN DEL PIE DE PÁGINA WEB EN LA PARTE INFERIOR. */
