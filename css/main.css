@@ -129,23 +129,6 @@ strong{
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-#marcoCarousel{ /* MARCO DE LA PRESENTACION DEL CAROUSEL QUE ES EL CONTENEDOR QUE PERTENECE AL 'figure' */
-    width: 100%;
-    height: 25%; 
-    margin: auto;
-    
-}
-
-.fotoCarousel{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
-    /* background: url('/img/expertos-en-reparacion-de-techo-en-madrid.png') ;
-	background-attachment: fixed;
-	background-size: cover;
-    background-size: contain; */
-
-    max-width: 100vw; /* NO CREZCA MÁS DEL 100% */
-
-}
-
 
 @font-face{ /* FUENTE TIPOGRÁFICA PARA LOS TITULARES*/
     font-family: "fontSourGummy";
@@ -175,10 +158,10 @@ strong{
 
 .descripcionTitular{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
     text-align: center;
     margin: auto;
-    width: 75%;
+    width: 85%;
 }
 
 .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
@@ -256,18 +239,6 @@ strong{
     margin: auto;
 }
 
-.apartado1{ /* DIMENSIONES DEL FONDO DE LA IMAGEN ESTÁTICA 'fixed'. */
-    width: 100%;
-	min-height:70vw;
-}
-
-#aptdo1{ /* FONDO ULR CON ANIMACIÓN FIXED. */
-	background: url('/img/expertos-en-reparacion-de-techo-en-madrid2.png') ;
-    background-size: contain;
-    width: 100%;
-
-}
-
 .apartado2{ /* DIMENSIONES DEL FONDO DE LA IMAGEN ESTÁTICA 'fixed'. */
     width: 100vw;
 	min-height:30vh;
@@ -280,13 +251,25 @@ strong{
     /* filter: grayscale(100%); */
 }
 
-#titularFondo{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+#titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+    color: white;
+    font-weight: 900;
+    font-size: 1.75rem;
+    text-align: center;
+    font-family: "fontTitular";
+    color: rgb(182, 176, 176);
+    text-shadow: 2px 2px rgb(0, 0, 0)!important; /* SOMBRA CON UN BORDE NEGRO DE 2PX. */
+    padding-bottom: 0.5rem;
+    
+}
+
+#titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
     color: white;
     font-weight: 900;
     font-size: 2rem;
     text-align: center;
     font-family: "fontTitular";
-    color: rgb(182, 176, 176);
+    color: rgb(117, 117, 117);
     text-shadow: 2px 2px rgb(0, 0, 0)!important; /* SOMBRA CON UN BORDE NEGRO DE 2PX. */
     padding-bottom: 0.5rem;
     
@@ -300,6 +283,7 @@ strong{
     font-family: "fontServicios";
     color: rgb(250, 250, 250)!important;
     text-shadow: 2px 2px rgb(0, 0, 0)!important; /* SOMBRA CON UN BORDE NEGRO DE 2PX. */
+    padding-bottom: 0.5rem;
 }
 
 #marcoClientes{
@@ -342,8 +326,8 @@ strong{
     }
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        width: 75%;
-        font-size: 1.35rem;
+        width: 85%;
+        font-size: 1.25rem;
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
@@ -355,7 +339,6 @@ strong{
         width: 75%;
         font-size: 1.35rem;
         /* padding-bottom: 2.5rem; */
-
     }
 
     #contGridServicios{ /* CONTENEDOR GRID PARA PODER REALIZAR EÑ RESPONSIVO A LAS IMAGENES QUE SE VISUALIZE EN FILAS. */
@@ -382,7 +365,7 @@ strong{
     }
 
     #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 1.25rem;
+        font-size: 1.35rem;
         padding-bottom: 0.5rem;
 
     }
@@ -441,7 +424,7 @@ strong{
     }
 
     #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 1.35rem;
+        font-size: 1.75rem;
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
