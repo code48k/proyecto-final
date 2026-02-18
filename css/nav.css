@@ -120,7 +120,7 @@
     } 
 
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
-        grid-template-columns: 0px 43.5vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        grid-template-columns: 0px 43.75vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
         width: 100vw;
     }
 }
