@@ -352,6 +352,11 @@ strong{
     #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
         font-size: 2rem;
         padding-bottom: 0.5rem;
+    }
+
+    #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
     
 }
     
