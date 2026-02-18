@@ -25,34 +25,37 @@
     display: flex;
     align-items: center;
     margin-left: 1rem;
-    }
+}
 
 #fotoLogoCabecera{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
-    max-height: 100%; /* NO CREZCA MÁS DEL 100% */
-    }
+    max-height: 90%; /* NO CREZCA MÁS DEL 100% */
+    padding-bottom: 0.25rem;
+}
 
 #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
     display: grid;
-    grid-template-columns: 0px 35.9vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+    grid-template-columns: 0px 36.9vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
     height: fit-content;
     justify-self: stretch;
     width: 100vw;
-    }
+}
 
 #contPadreGridNav section{
     height: fit-content;
-    }
+}
 
-    .menu-btn{ /* MENÚ HAMBURGUESA */
-
+.menu-btn{ /* MENÚ HAMBURGUESA */
     top: 0.92rem;
-    
 }
 
 .menu-list{
     position: relative;
     top: -2rem;
 }
+
+.menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
+    display: none!important;
+    } 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -75,7 +78,7 @@
     }
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 75%!important; /* NO CREZCA MÁS DEL 60% */
+        max-height: 90%!important; 
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
@@ -105,7 +108,7 @@
     }
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 62.5%!important; /* NO CREZCA MÁS DEL 62.5% */
+        max-height: 90%!important; 
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
