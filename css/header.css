@@ -8,16 +8,16 @@
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* CONTENIDO DEL 'header' INICIO */ /* BREAKPOINT PARA MÓVILES <375px */
+/* CONTENIDO DEL 'header' INICIO */ /* BREAKPOINT PARA MÓVILES <374px */
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     color: white;
-    margin-right: 0.75rem;
+    margin-right: 0.6rem;
 }
 
 #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
@@ -27,7 +27,6 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
 }
 
 #marcoCorreo{ /* MARCO DE LA FOTOGRAFÍA DEL CONTACTO ELECTRÓNICO, ES EL 'contEnlaceCorreo' DE LA IMAGEN QUE ESTA SITUADA EN LA CABECERA. */
@@ -37,114 +36,163 @@
     justify-content: flex-end;
     align-items: center;
     margin-right: 0.25rem;
-
 }
 
 #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
-    max-height: 95%; 
+    max-height: 90%; 
     /* margin-top: 0.1rem; */
         background-image: url('/img/clientes1.png');
-
-}
-
-/* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA MÓVILES <374px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-/* DISEÑO PARA DISPOSITIVOS >374 */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (max-width: 374px){
-    #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 1.2rem;
-        margin-right: 0.75rem;
-    }
-
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES <374px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* DISEÑO PARA DISPOSITIVOS >375px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 375px) and (max-width: 575px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 1.2rem;
-        margin-right: 0.75rem;
+        font-size: 1.5rem;
+        margin-right: 0.6rem;
+    }
+    
+    #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
+        max-height: 90%; 
     }
 
+    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+    width: 95%;
+    }
 }
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >375px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* DISEÑO PARA DISPOSITIVOS >576px */
+
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 576px) and (max-width: 767px){
+    #cabecera{ /* CABECERA DE LA PÁGINA WEB 'header'. */
+        width: 101%;  /* ANCHURA DE LA CABECERA AL 100%. */
+    }
+
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 1.65rem;
-        margin-right: -0.25rem;
+        font-size: 1.5rem;
+        margin-right: -0.5rem;
+    }
+
+    #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
+        max-height: 92.5%; 
     }
     
+    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+    width: 97%;
+    }
 }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >576px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* DISEÑO PARA DISPOSITIVOS CON PANTALLAS/TABLETS DE MÁS DE >768px  */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 1199px){
+    #cabecera{ /* CABECERA DE LA PÁGINA WEB 'header'. */
+        width: 103%;  /* ANCHURA DE LA CABECERA AL 100%. */
+    }
+
      #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 1.7rem;
-        margin-right: -1rem;
-    }
-}
-
-/* BREAKPPOINT PARA PANTALLAS GRANDES DESDE >992px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 992px) and (max-width: 1199px){
-    #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 1.7rem;
-        margin-right: -2.1rem;
+        font-size: 1.6rem;
+        margin-right: -1.6rem;
     }
 
-    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-        width: 94.95%;
+    #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
+        max-height: 94%; 
     }
     
+    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+    width: 97.5%;
+    }
 }
+
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >768px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 1200px) and (max-width: 1680px){
+@media screen and (min-width: 1200px) and (max-width: 1439px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
         font-size: 1.7rem;
-        margin-right: -3.25rem;
+        margin-right: -3.5rem;
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
         width: 95.2%;
     }
+
+    #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
+        max-height: 95%; 
+    }
+    
+    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+        width: 97.5%;
+    }
 }
 
-
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >1200px */
 
-@media screen and (min-width: 1681px){
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1440 */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1440px) and (max-width: 1920px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 2rem;
-        margin-right: -5rem;
+        font-size: 1.95rem;
+        margin-right: -4.5rem;
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-        width: 96%;
+        width: 95.2%;
+    }
+
+    #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
+        max-height: 96%; 
+    }
+    
+    #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
+        width: 97.7%;
     }
 }
 
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >1440px */
+
 /* 
 
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
 /* CONTENIDO DEL 'header' FÍN */

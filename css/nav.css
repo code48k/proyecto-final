@@ -6,13 +6,13 @@
     height: 5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     display: flex;
     justify-content: space-between;  
-    /* background-color: yellow; */
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* CONTENIDO DEL 'nav' INICIO */ /* BREAKPOINT PARA MÓVILES <375px */
-/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* CONTENIDO DEL 'nav' INICIO */ /* BREAKPOINT PARA MÓVILES <374px */
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
     height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
@@ -54,43 +54,12 @@
     top: -2rem;
 }
 
-/* CONTENIDO DEL 'nav' FIN */ /* BREAKPOINT PARA MÓVILES <324px */
-
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* DISEÑO PARA DISPOSITIVOS >374 */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* CONTENIDO DEL 'nav' FÍN */ /* BREAKPOINT PARA MÓVILES <374px */
 
-@media screen and (max-width: 374px){
-    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-        height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
-    }
-    
-    #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
-        grid-template-columns: 0px 37vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
-        width: 100vw;
-    }
-
-    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 75%!important; /* NO CREZCA MÁS DEL 60% */
-    }
-
-    .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
-        display: none!important;
-    }
-
-    .menu-list{
-        position: relative;
-        top: -2rem;
-    } 
-
-    .menu-btn{ /* MENÚ HAMBURGUESA */
-        top: 0.92rem;
-    
-}
-}
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* DISEÑO PARA DISPOSITIVOS >375px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -114,12 +83,20 @@
     } 
     
     .menu-list{
-    position: relative;
-    top: -2rem;
-}
+        position: relative;
+        top: -2rem;
+    }
 }
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'nav' FÍN */ /* BREAKPOINT PARA MÓVILES >375px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* DISEÑO PARA DISPOSITIVOS >576px */
+
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 576px) and (max-width: 767px) {
@@ -141,10 +118,17 @@
     }
 }
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'nav' FÍN */ /* BREAKPOINT PARA MÓVILES >576px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* DISEÑO PARA DISPOSITIVOS CON PANTALLAS/TABLETS DE MÁS DE >768px  */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 1199px){
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
         height: 7vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
@@ -163,10 +147,17 @@
     }
 }
 
-/* BREAKPPOINT PARA PANTALLAS GRANDES DESDE >992px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 992px) and (max-width: 1199px){
+/* CONTENIDO DEL 'nav' FÍN */ /* BREAKPOINT PARA MÓVILES >768px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1200px) and (max-width: 1439px){
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
         height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
@@ -187,10 +178,17 @@
     }
 }
 
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 1200px) and (max-width: 1680px) {
+/* CONTENIDO DEL 'nav' FÍN */ /* BREAKPOINT PARA MÓVILES >1200px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1440 */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
     #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
         height: 7.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
     }
@@ -212,31 +210,12 @@
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >1440px */
 
-
-@media screen and (min-width: 1681px) and (max-width: 2168px){
-    #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
-        height: 7.5vh; /* ALTURA DEL CONTENEDOR 'nav'. */
-    }
-
-    #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 100%!important; /* NO CREZCA MÁS DEL 90% */
-    }
-
-    .menu-btn{ /* OCULTAMOS EL MENU HAMBURGUESA. */
-        display: none!important;
-    }  
-
-    #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
-        grid-template-columns: 0px 46vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
-        width: 100vw;
-    }
-}
-
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
 /* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* MENU DESPLEGABLE INICIO */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -352,15 +331,10 @@
 }
 
 .menu-list{ /* MENÚ LATERAL */
-    position: fixed;
-   
-    /* SEPARAS EL MENU DESDE ARRIBA EN 'rem' */
-    top: 5rem;
-    /* LE INDICAS DONDE SE GUARDA CUANDO SE ESCONDE */
-    right: -50%;
-    /* LE INDICAS EL ANCHO QUE VA A TENER EL MENÚ */
+    position: fixed; /* SEPARAS EL MENU DESDE ARRIBA EN 'rem' */
+    top: 5rem; /* LE INDICAS DONDE SE GUARDA CUANDO SE ESCONDE */
+    right: -50%; /* LE INDICAS EL ANCHO QUE VA A TENER EL MENÚ */
     width: 45%;
-   
     height: 55vh;
     background: rgba(173, 74, 74, 0.08);
     backdrop-filter: blur(5px);
