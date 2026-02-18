@@ -180,7 +180,7 @@ strong{
 
 .descripcionTitular{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.45rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: auto;
     width: 85%;
@@ -361,7 +361,7 @@ strong{
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 80%;
-        font-size: 1.45rem;
+        font-size: 1.5rem;
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
