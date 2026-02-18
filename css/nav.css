@@ -13,6 +13,12 @@
 /* CONTENIDO DEL 'nav' INICIO */ /* BREAKPOINT PARA MÓVILES <374px */
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 325px) and (max-width: 374px){
+    .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
+        display: none!important;
+    } 
+}
+
 
 #navegacion{ /* PARTE DE LA PÁGINA WEB DE NAVEGACIÓN 'nav'. */
     height: 6.75vh; /* ALTURA DEL CONTENEDOR 'nav'. */
@@ -25,7 +31,7 @@
     display: flex;
     align-items: center;
     margin-left: 1rem;
-}
+    }
 
 #fotoLogoCabecera{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
     max-height: 90%; /* NO CREZCA MÁS DEL 100% */
@@ -38,7 +44,7 @@
     height: fit-content;
     justify-self: stretch;
     width: 100vw;
-}
+    }
 
 #contPadreGridNav section{
     height: fit-content;
@@ -46,16 +52,13 @@
 
 .menu-btn{ /* MENÚ HAMBURGUESA */
     top: 0.92rem;
+    
 }
 
 .menu-list{
     position: relative;
     top: -2rem;
 }
-
-.menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
-    display: none!important;
-    } 
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -80,7 +83,6 @@
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
         max-height: 90%!important; 
         padding-bottom: 0.25rem;
-
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
@@ -111,8 +113,7 @@
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
         max-height: 90%!important; 
-        padding-bottom: 0.3rem;
-
+        padding-bottom: 0.35rem;
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
@@ -120,7 +121,7 @@
     } 
 
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
-        grid-template-columns: 0px 43.75vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        grid-template-columns: 0px 43.7vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
         width: 100vw;
     }
 }
@@ -142,6 +143,7 @@
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
         max-height: 90%!important; 
+        padding-bottom: 0.1rem;
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
@@ -149,7 +151,7 @@
     } 
 
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
-        grid-template-columns: 0px 44.5vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        grid-template-columns: 0px 42.75vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
         width: 100vw;
     }
 }
@@ -170,8 +172,7 @@
     }
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 85%!important; /* NO CREZCA MÁS DEL 50% */
-        margin-left: 0.5rem;
+        max-height: 95%!important; 
         padding-bottom: 0.25rem;
     }
     
@@ -201,7 +202,7 @@
     }
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 85%!important; /* NO CREZCA MÁS DEL 50% */
+        max-height: 100%!important; 
         padding-bottom: 0.25rem;
     }
 

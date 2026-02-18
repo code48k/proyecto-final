@@ -40,8 +40,7 @@
 
 #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
     max-height: 90%; 
-    /* margin-top: 0.1rem; */
-        background-image: url('/img/clientes1.png');
+    background-image: url('/img/clientes1.png');
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -62,6 +61,7 @@
     
     #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
         max-height: 90%; 
+        
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
@@ -111,12 +111,12 @@
 
 @media screen and (min-width: 768px) and (max-width: 1199px){
     #cabecera{ /* CABECERA DE LA PÁGINA WEB 'header'. */
-        width: 103%;  /* ANCHURA DE LA CABECERA AL 100%. */
+        width: 100%;  /* ANCHURA DE LA CABECERA AL 100%. */
     }
 
      #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
         font-size: 1.6rem;
-        margin-right: -1.4rem;
+        margin-right: -1.5rem;
     }
 
     #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
@@ -124,7 +124,7 @@
     }
     
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-        width: 93.5%;
+        width: 98%;
     }
 }
 
@@ -153,7 +153,7 @@
     }
     
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-        width: 97.5%;
+        width: 94.75%;
     }
 }
 
@@ -170,7 +170,7 @@
 @media screen and (min-width: 1440px) and (max-width: 1920px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
         font-size: 1.95rem;
-        margin-right: -4.5rem;
+        margin-right: -4.25rem;
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
@@ -182,7 +182,7 @@
     }
     
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-        width: 97.7%;
+        width: 94.75%;
     }
 }
 
