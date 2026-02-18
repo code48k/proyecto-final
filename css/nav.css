@@ -79,6 +79,8 @@
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
         max-height: 90%!important; 
+        padding-bottom: 0.25rem;
+
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
@@ -109,6 +111,8 @@
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
         max-height: 90%!important; 
+        padding-bottom: 0.3rem;
+
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
@@ -116,7 +120,7 @@
     } 
 
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
-        grid-template-columns: 0px 40vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        grid-template-columns: 0px 43.5vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
         width: 100vw;
     }
 }
@@ -137,7 +141,7 @@
     }
 
     #fotoLogoCabecera{ /* CONTROL DE LA IMAGEN RESPONSIVO DEL LOGO CORPORATIVO EN LA PARTE DE LA CABECERA. */
-        max-height: 75%!important; /* NO CREZCA MÁS DEL 75% */
+        max-height: 90%!important; 
     }
 
     .menuDesplegableBoton{ /* OCULTAMOS EN MENÚ DESPLEGABLE DE LA PARTE DE LA CABECERA. */
@@ -145,7 +149,7 @@
     } 
 
     #contPadreGridNav{ /* CONTENEDOR PADRE GRID PARA COLOCAR EL LOGO CORPORATIVO, LOS ESPACIOS EN BLANCO, LOS BOTONES EL MENU HAMBURGUESA. */
-        grid-template-columns: 0px 41.5vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
+        grid-template-columns: 0px 44.5vw repeat(5, 9vw 4vw) 8vw 1vw 0vw;
         width: 100vw;
     }
 }

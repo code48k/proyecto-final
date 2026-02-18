@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 576px) and (max-width: 767px){
     #cabecera{ /* CABECERA DE LA PÁGINA WEB 'header'. */
-        width: 101%;  /* ANCHURA DE LA CABECERA AL 100%. */
+        width: 103%;  /* ANCHURA DE LA CABECERA AL 100%. */
     }
 
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
@@ -116,7 +116,7 @@
 
      #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
         font-size: 1.6rem;
-        margin-right: -1.6rem;
+        margin-right: -1.4rem;
     }
 
     #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
@@ -124,7 +124,7 @@
     }
     
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-    width: 97.5%;
+        width: 93.5%;
     }
 }
 
