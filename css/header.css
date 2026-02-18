@@ -130,22 +130,22 @@
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >768px */
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PANTALLAS/TABLETS DE >768px */
 
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
+/* BREAKPPOINT PARA PANTALLAS GRANDES DESDE >1200px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 1200px) and (max-width: 1439px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 1.7rem;
-        margin-right: -3.5rem;
+        font-size: 1.25rem;
+        margin-right: -3.1rem;
     }
 
     #contEnlaceCorreo{ /* ESPACIO PARA LA SEPARACIÓN DEL CORREO ELECTRÓNICO QUE ESTA EN LA CABECERA. */
-        width: 95.2%;
+        width: 92.2%;
     }
 
     #fotoCorreo{ /* IMAGEN ADAPTADA A SU CONTENEDOR QUE ESTA DENTRO DEL 'figure' DE LA CABECERA. */
@@ -159,7 +159,7 @@
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >1200px */
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PANTALLAS GRANDES >1200px */
 
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -169,7 +169,7 @@
 
 @media screen and (min-width: 1440px) and (max-width: 1920px){
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
-        font-size: 1.95rem;
+        font-size: 1.75rem;
         margin-right: -4.25rem;
     }
 
@@ -188,7 +188,7 @@
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA MÓVILES >1440px */
+/* CONTENIDO DEL 'header' FÍN */ /* BREAKPOINT PARA PANTALLAS EXTRA GRANDES >1440px */
 
 /* 
 

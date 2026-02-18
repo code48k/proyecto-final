@@ -103,12 +103,10 @@ main{ /* CONTENIDO DE LA PÁGINA WEB 'main'. */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 h3{
-    font-size: 1.75rem;
- 
+    font-size: 1.95rem;
     width: 85%;
     margin: auto;
     text-align: center;
-
 }
 
 h4{
@@ -127,12 +125,12 @@ strong{
 
 
 /* SEPARACIONES FIN */
+
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* CONTENIDO DEL 'main' INICIO */ /* BREAKPOINT PARA MÓVILES <375px */
-
+/* CONTENIDO DEL 'nav' INICIO */ /* BREAKPOINT PARA MÓVILES <374px */
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -302,86 +300,12 @@ strong{
     max-width: 90%;
 }
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA MÓVILES <374px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* DISEÑO PARA DISPOSITIVOS >374 */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (max-width: 374px){
-    .card {
-        position: relative;
-    }
-
-    .card-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .card-text {
-        position: relative;
-        z-index: 2;
-    }
-
-    .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        width: 100%;
-        font-size: 1.95rem;
-    }
-
-    .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        width: 85%;
-        font-size: 1.45rem;
-    }
-
-    .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
-        width: 100%;
-        font-size: 1.8rem;
-    }
-
-    .descripcionServicios{ /* DESCRIPCIÓN DEL TITULAR CONTROL DEL TAMAÑO. */
-        width: 75%;
-        font-size: 1.35rem;
-        /* padding-bottom: 2.5rem; */
-    }
-
-    #contGridServicios{ /* CONTENEDOR GRID PARA PODER REALIZAR EÑ RESPONSIVO A LAS IMAGENES QUE SE VISUALIZE EN FILAS. */
-        display: grid;
-        grid-template-rows: repeat(4, 1fr); 
-    }
-
-    .apartado2{ /* DIMENSIONES DEL FONDO DE LA IMAGEN ESTÁTICA 'fixed'. */
-        width: 100vw;
-        min-height:30vh;
-    }
-
-    #aptdo2{ /* FONDO ULR CON ANIMACIÓN FIXED. */
-        background: url('/img/cover6.png') ;
-        background-attachment: fixed;
-        background-size: cover;
-    /* filter: grayscale(100%); */
-    }
-
-    #titularFondo{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
-        font-size: 1.75rem;
-        color: rgb(182, 176, 176);
-        padding-bottom: 0.5rem;
-    }
-
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 1.35rem;
-        padding-bottom: 0.5rem;
-
-    }
-
-
-
-}
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* DISEÑO PARA DISPOSITIVOS >375px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -439,7 +363,15 @@ strong{
     }
 }
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA MÓVILES >375px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* DISEÑO PARA DISPOSITIVOS >576px */
+
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 576px) and (max-width: 767px){
@@ -511,10 +443,17 @@ strong{
     }
 }
 
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA MÓVILES >576px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* DISEÑO PARA DISPOSITIVOS CON PANTALLAS/TABLETS DE MÁS DE >768px  */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) and (max-width: 1199px){
     .card {
         position: relative;
     }
@@ -575,10 +514,17 @@ strong{
     }
 }
 
-/* BREAKPPOINT PARA PANTALLAS GRANDES DESDE >992px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 992px) and (max-width: 1199px){
+/* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PANTALLAS/TABLETS DE >768px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* BREAKPPOINT PARA PANTALLAS GRANDES DESDE >1200px */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1200px) and (max-width: 1439px){
     .card {
         position: relative;
     }
@@ -647,10 +593,17 @@ strong{
     }
 }
 
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-@media screen and (min-width: 1200px) and (max-width: 1680px){
+/* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PANTALLAS GRANDES >1200px */
+
+/* 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1440 */
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 1440px) and (max-width: 1920px){
     .card {
         position: relative;
     }
@@ -720,96 +673,18 @@ strong{
     }
 
     h3{
-    font-size: 1.5rem;
-
+    font-size: 1.75rem;
+    }
 }
-}
-
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA PANTALLAS EXTRA GRANDES >1440px */
 
-
-@media screen and (min-width: 1681px) and (max-width: 2168px){
-        .card {
-        position: relative;
-    }
-
-    .card-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .card-text {
-        position: relative;
-        z-index: 2;
-    }
-
-    #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
-        font-size: 6rem;
-        padding-bottom: 0.5rem;
-        width: 95%;
-    }
-
-    #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
-        font-size: 4rem;
-        padding-bottom: 0.5rem;
-    }
-    
-    .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        font-size: 4.25rem;
-    }
-
-    .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        width: 90%;
-        font-size: 1.5rem;
-
-    }
-
-    .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
-        width: 100%;
-        font-size: 1.8rem;
-    }
-
-    .descripcionServicios{ /* DESCRIPCIÓN DEL TITULAR CONTROL DEL TAMAÑO. */
-        width: 80%;
-        font-size: 1.4rem;
-    }
-
-    #contGridServicios{ /* CONTENEDOR GRID PARA PODER REALIZAR EÑ RESPONSIVO A LAS IMAGENES QUE SE VISUALIZE EN 2 COLUMNAS. */
-        display: grid;
-        grid-template-columns: repeat(4, 25%); 
-    }
-
-    #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
-        font-size: 3.5rem;
-    }
-
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 6.75rem;
-        width: 90%;
-        margin: auto;
-        padding-bottom: 4rem;
-    }
-
-    #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
-        min-height: 5vh;
-    }
-
-    h3{
-    font-size: 1.5rem;
-
-}
-}
-
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
 /* 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 
 /* MENU DESPLEGABLE INICIO */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
