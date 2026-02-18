@@ -283,6 +283,7 @@ strong{
     text-shadow: 2px 2px rgb(0, 0, 0)!important; /* SOMBRA CON UN BORDE NEGRO DE 2PX. */
     padding-bottom: 0.5rem;
     width: 97.5%;
+    margin: auto;
     
 }
 
