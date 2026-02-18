@@ -226,7 +226,7 @@ strong{
     max-width: 90%;
 }
 
-#seccionServicios{ /* PADRE FLEX DE LOS TITULOS DE LOS SERVICIOS QUE REALIZA LA EMPRESA . */
+.seccionServicios{ /* PADRE FLEX DE LOS TITULOS DE LOS SERVICIOS QUE REALIZA LA EMPRESA . */
     display: flex;
     width: 100%;
     justify-content: space-evenly;
