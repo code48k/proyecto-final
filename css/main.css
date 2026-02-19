@@ -119,6 +119,16 @@ h4{
 
 }
 
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+    color: #FF044F;
+    width: 85%;
+    margin: auto;
+
+}
+
 strong{
     color: #FF044F;
 }
