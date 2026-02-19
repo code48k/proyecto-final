@@ -302,7 +302,7 @@ strong{
 .descripcionSubtitular{ /* SUBTITULAR DE LA IMAGEN DEL FONDO 'fixed'. */
     color: white;
     font-weight: 900;
-    font-size: 1.25rem;
+    /* font-size: 1.25rem; */
     text-align: center;
     font-family: "fontServicios";
     color: rgb(250, 250, 250)!important;
@@ -392,7 +392,7 @@ strong{
         font-size: 2rem;
     }
 
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
+    .descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
         font-size: 1.5rem;
     }
 
@@ -438,13 +438,7 @@ strong{
     }
 
     #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
-        color: white;
-        font-weight: 900;
-        font-size: 2rem;
-        text-align: center;
-        font-family: "fontTitular";
-        color: rgb(117, 117, 117);
-        text-shadow: 2px 2px rgb(0, 0, 0)!important; /* SOMBRA CON UN BORDE NEGRO DE 2PX. */
+        font-size: 2.5rem;
         padding-bottom: 0.5rem;
     
     }   
@@ -455,7 +449,7 @@ strong{
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 80%;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
@@ -472,13 +466,26 @@ strong{
         font-size: 2.25rem;
     }
 
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
+    .descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
         font-size: 1.75rem;
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
         min-height: 5vh;
     }
+
+    h3{
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
+        font-size: 1.1rem;
+    }
+
 }
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
@@ -514,6 +521,11 @@ strong{
         font-size: 3rem;
         padding-bottom: 0.5rem;
     }
+
+    #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
+        font-size: 2.25rem;
+        padding-bottom: 0.5rem;
+    }
     
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 3.75rem;
@@ -521,7 +533,7 @@ strong{
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 78%;
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
@@ -543,14 +555,27 @@ strong{
         font-size: 2.8rem;
     }
 
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
+    .descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
         font-size: 2rem;
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
         min-height: 5vh;
     }
+
+    h3{
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.15rem;
+    }
+
+    .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
+        font-size: 1.1rem;
+    }
 }
+
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -584,20 +609,21 @@ strong{
     #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
         font-size: 3.75rem;
         padding-bottom: 0.5rem;
+        width: 80%;
     }
 
     #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
-        font-size: 4rem;
+        font-size: 3.5rem;
         padding-bottom: 0.5rem;
     }
     
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        font-size: 4.25rem;
+        font-size: 4.5rem;
     }
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 87%;
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
@@ -616,20 +642,33 @@ strong{
     }
 
     #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
-        font-size: 4rem;
+        font-size: 1rem;
     }
 
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 3.75rem;
+    .descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
+        font-size: 2.75rem;
         margin: auto;
-        width: 87%;
-        /* padding-bottom: 2.5rem; */
+        width: 90%;
+        padding-bottom: 1rem;
     }
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
         min-height: 5vh;
     }
+
+    h3{
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.3rem;
+    }
+
+    .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
+        font-size: 1.35rem;
+    }
 }
+
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -661,9 +700,9 @@ strong{
     }
 
     #titularFondo1{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
-        font-size: 3.75rem;
+        font-size: 4.75rem;
         padding-bottom: 0.5rem;
-        width: 95%;
+        width: 80%;
     }
 
     #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
@@ -672,12 +711,12 @@ strong{
     }
     
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
-        font-size: 4.25rem;
+        font-size: 5.5rem;
     }
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 90%;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
 
     }
 
@@ -700,8 +739,8 @@ strong{
         font-size: 3.5rem;
     }
 
-    #descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
-        font-size: 2.75rem;
+    .descripcionSubtitular{ /* DESCRIPCION DEL TITULAR DE LA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'. */
+        font-size: 3.25rem;
         width: 90%;
         margin: auto;
     }
@@ -711,7 +750,15 @@ strong{
     }
 
     h3{
-    font-size: 1.75rem;
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.4rem;
+    }
+
+    .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
+        font-size: 1.4rem;
     }
 }
 
