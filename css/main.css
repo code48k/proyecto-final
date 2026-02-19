@@ -188,6 +188,14 @@ strong{
     width: 100%;
 }
 
+#titulars{ /* ESTILO DEL 'index' PARA TODOS LOS TITULARES DEL PROYECTO WEB. */
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "fontTitular", sans-serif;
+    font-size: 2.75rem;
+    width: 100%;
+}
+
 .descripcionTitular{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.7rem;
@@ -737,6 +745,10 @@ strong{
         font-size: 5.5rem;
     }
 
+    #titulars{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
+        font-size: 1.5rem;
+    }
+
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 90%;
         font-size: 1.4rem;
@@ -781,7 +793,7 @@ strong{
     }
 
     .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
 }
 
