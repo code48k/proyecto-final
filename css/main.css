@@ -364,8 +364,7 @@ strong{
     #titularFondo2{ /* TITULAR DE LA IMAGEN DEL FONDO ESTÁTICA 'fixed'. */
         font-size: 1.5rem;
         padding-bottom: 0.5rem;
-    
-}
+    }
     
     .titular{ /* CONTROL DEL TAMAÑO DEL LOS TITULARES ADAPTADA A TODOS LOS DISPOSITIVOS. */
         font-size: 2.75rem;
@@ -373,7 +372,7 @@ strong{
 
     .descripcionTitular{ /* CONTROL DEL TAMAÑO DE LA DESCRIPCION DEL TITULAR ADAPTADA A TODOS LOS DISPOSITIVOS. */
         width: 80%;
-        font-size: 1.7rem;
+        font-size: 1.15rem;
     }
 
     .tamanoTextoServicios{ /* CONTROL DEL TAMAÑO DE LETRA DE LAS SECCIONES DE LOS SERVICIOS. */
@@ -399,7 +398,21 @@ strong{
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
         min-height: 5vh;
     }
+
+    h3{
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
+        font-size: 1rem;
+    }
+
 }
+
 
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
@@ -479,7 +492,7 @@ strong{
     }
 
     h4 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
     .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
@@ -568,7 +581,7 @@ strong{
     }
 
     h4 {
-        font-size: 1.15rem;
+        font-size: 1.2rem;
     }
 
     .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
@@ -661,7 +674,7 @@ strong{
     }
 
     h4 {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
 
     .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
@@ -754,7 +767,7 @@ strong{
     }
 
     h4 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
