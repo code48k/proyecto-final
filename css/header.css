@@ -82,7 +82,7 @@
 
 @media screen and (min-width: 576px) and (max-width: 767px){
     #cabecera{ /* CABECERA DE LA PÁGINA WEB 'header'. */
-        width: 103%;  /* ANCHURA DE LA CABECERA AL 100%. */
+        width: 100%;  /* ANCHURA DE LA CABECERA AL 100%. */
     }
 
     #telefonoContacto{ /* TELÉFONO DE CONTACTO DE LA CABECERA */
