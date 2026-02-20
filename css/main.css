@@ -103,7 +103,7 @@ main{ /* CONTENIDO DE LA PÁGINA WEB 'main'. */
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 h3{
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     width: 85%;
     margin: auto;
     text-align: center;
@@ -144,32 +144,32 @@ strong{
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-.card {
-    position: relative;
+    .card {
+        position: relative;
     }
 
-.card-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-.card-img2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 10%;
-    object-fit: cover;
-}
+    .card-img2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* height: 3.5%; */
+        object-fit: cover;
+    }
 
-.card-text {
-    position: relative;
-    z-index: 2;
-}
+    .card-text {
+        position: relative;
+        z-index: 2;
+    }
 
 @font-face{ /* FUENTE TIPOGRÁFICA PARA LOS TITULARES*/
     font-family: "fontSourGummy";
@@ -364,6 +364,35 @@ strong{
 /* DISEÑO PARA DISPOSITIVOS >375px */
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+@media screen and (min-width: 374px) and (max-width: 375px){
+    .card {
+        position: relative;
+    }
+
+    .card-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .card-img2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 0.2%;
+        object-fit: cover;
+    }
+
+    .card-text {
+        position: relative;
+        z-index: 2;
+    }
+}
+
 @media screen and (min-width: 375px) and (max-width: 575px){
     .card {
         position: relative;
@@ -520,6 +549,11 @@ strong{
         font-size: 1.5rem;
     }
 
+    #contGridServicios{ /* CONTENEDOR GRID PARA PODER REALIZAR EÑ RESPONSIVO A LAS IMAGENES QUE SE VISUALIZE EN 2 COLUMNAS. */
+        display: grid;
+        grid-template-columns: repeat(2, 50%); 
+    }
+
     #titularFondo{ /* TAMAÑO Y TITULAR PARA LA FUENTE TIPOGRÁFICA, DONDE SE ENCUENTRA LA IMAGEN ESTÁCTICA 'fixed'.  */
         font-size: 2.25rem;
     }
@@ -533,7 +567,7 @@ strong{
     }
 
     h3{
-        font-size: 1.75rem;
+        font-size: 1.25rem;
     }
 
     h4 {
