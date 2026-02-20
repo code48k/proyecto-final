@@ -805,7 +805,7 @@ strong{
     }
 
     .card-img2 {
-        /* position: absolute; */
+        position: absolute;
         top: 0;
         left: 0;
         width: 100%;
@@ -877,7 +877,7 @@ strong{
     }
 
     h4 {
-        font-size: 3rem;
+        font-size: 3.75rem;
     }
 
     .cuerpoTexto{ /* DESCRIPCION DE LOS SERVICIOS QUE HACE LA EMPRESA, QUE SE ENCUNTRA DEBAJO DEL TITULAR. */
