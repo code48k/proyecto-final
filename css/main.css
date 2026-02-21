@@ -116,7 +116,6 @@ h4{
     color: #FF044F;
     width: 85%;
     margin: auto;
-
 }
 
 h2{
@@ -133,6 +132,23 @@ strong{
     color: #FF044F;
 }
 
+.titulars{
+        font-family: "fontSourGummy";
+    /* font-size: 2.5rem; */
+    text-align: center;
+    color: #FF044F;
+    width: 85%;
+    margin: auto;
+}
+
+.respuestasFaq{
+    font-family: "fontSourGummy";
+    /* font-size: 2.5rem; */
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    font-size: 1.25rem;
+}
 
 /* SEPARACIONES FIN */
 
