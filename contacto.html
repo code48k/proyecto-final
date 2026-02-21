@@ -4,200 +4,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto</title>
+    <title>Estamos en toda la Comunidad de Madrid y sus alrededore</title>       
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/nav.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/footer.css">
-    <style>
-        .parrafoContenido{
-            font-size: 1.5rem;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-align: justify;
-            width: 90%;
-            margin: auto;
+    <meta name="author" content="https://code48k.netlify.app/" />
+    <meta rel="canonical" href="https://code48k.netlify.app/ />
+    <meta name="language" content="es" />
+    <meta name="description" content="Ofrecemos servicio en toda la Comunidad de Madrid y sus alrededores, pueblos, ciudades y zonas rurales.">
+    <!-- <meta name="robots" content="noindex, nofollow"> -->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9V5H3C713J"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9V5H3C713J');
+    </script>
+    <script type="application/ld+json">
+{
+@context": "https://schema.org",
+    "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "name": "TejadoMadrid",
+      "image": "https://code48k.netlify.app/logo.png",
+      "@id": "https://code48k.netlify.app/",
+      "url": "https://code48k.netlify.app/",
+      "telephone": "+34 641 92 63 18",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Felipe de Diego 3",
+        "addressLocality": "Madrid",
+        "postalCode": "28018",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.3895,
+        "longitude": -3.6645
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      },
+      "priceRange": "€€",
+      "sameAs": [
+        "https://www.facebook.com/tejadosmadrid",
+        "https://www.instagram.com/tejadosmadrid"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿Cuánto cuesta reparar un tejado en Madrid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El precio de la reparación depende del tipo de daño y de la superficie afectada. Cada intervención requiere una evaluación previa para ofrecer un presupuesto ajustado y garantizar una solución duradera."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto tarda la reparación de un tejado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "La mayoría de los trabajos se completan en 1 o 2 días, dependiendo de la magnitud del daño y del tipo de cubierta. Intervenciones más complejas pueden requerir algo más de tiempo para garantizar un resultado seguro y duradero."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se puede reparar solo la zona dañada del tejado?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "En muchos casos se puede reparar únicamente la zona afectada, reemplazando tejas dañadas o aplicando impermeabilización localizada, siempre después de una inspección detallada."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cada cuánto debo revisar mi tejado en Madrid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Se recomienda realizar una inspección profesional al menos una vez al año, especialmente después de lluvias o fuertes vientos, para detectar problemas pequeños antes de que se conviertan en reparaciones costosas."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué cubiertas reparan en Madrid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Reparamos todo tipo de tejados: tejas tradicionales, cubiertas planas, tejados inclinados, azoteas y estructuras modernas. Cada cubierta se analiza para aplicar la solución más adecuada según el tipo de material y el estado de la superficie."
+          }
         }
-
-        .parrafoContenido2{
-            font-size: 1.5rem;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            text-align: justify;
-            width: 85%;
-            margin: auto;
-        }
-        .h1{
-            font-size: 2.5rem;
-            font-family: "fontTitular", sans-serif;
-            font-size: 1.75rem;            text-align: justify;
-            margin: auto;
-            width: 90%;
-        }
-
-        #marcoCarousels{ /* MARCO DE LA PRESENTACION DEL CAROUSEL QUE ES EL CONTENEDOR QUE PERTENECE AL 'figure' */
-    width: 100%;
-    height: 25%; 
-    margin: auto;
-    text-align: center;
-}
-
-.fotoCarousels{ /* IMAGEN AJUSTABLE A SU CONTENIDO. */
-    max-width: 100%; /* NO CREZCA MÁS DEL 100% */
-
-}
-
-.menu{
-    min-height: 395vh;
-}
-
-form{
-    display: flex; /* APLICAMOS FLEX DENTRO DEL FORMULARIO. */
-    flex-direction: column; /* LO COLOOCAMOS EN COLUMNA*/
-    justify-content: center; /* LO CENTRAMOS */
-    align-items: center; /* CENTRAR EL FORMULARIO HORIZONTALMENTE. */
-    background-color: azure;
-    /* border: 3px solid aqua; TIPO DE ORDEN */
-    height: 70vh;
-    width: 75vh;
-    margin: auto;
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; /* CAMBIO DE LA FUENTE TIPOGRÁFICA. */
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-fieldset{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 75%;
-    height: 89VH;
-}
-
-.secciones{
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
-
-.section{
-    display: flex;
-    justify-content: center;
-}
-
-input{
-    display: flex; /* CENTRAMOS DENTRO DEL CONTENEDOR FORMULARIO LOS CAMPOS. */
-    align-items: center;
-    width: 20vw;    
-    align-self: center; /* CENTRAMOS LOS CAMPOS. */
-
-}
-
-label{
-    display: flex;  /* CENTRAMOS DENTRO DEL CONTENEDOR FORMULARIO LOS TEXTOS. */
-    align-items: center;
-    width: 20vw;    
-    align-self: center; /* CENTRAMOS LOS CAMPOS. */
-    margin-bottom: 0.5rem;
-
-}
-
-
-/* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA MÓVILES <374px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-/* DISEÑO PARA DISPOSITIVOS >374 */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (max-width: 374px){
-.menu{
-    min-height: fit-content;
-}
+      ]
     }
-
-
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-/* DISEÑO PARA DISPOSITIVOS >375px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 375px) and (max-width: 575px){
-  .menu{
-    min-height: fit-content;
+  ]
 }
-    }
-
-
-/* DISEÑO PARA DISPOSITIVOS >576px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 576px) and (max-width: 767px){
-  
-.menu{
-    min-height: fit-content;
-}
-    }
-
-/* DISEÑO PARA DISPOSITIVOS CON PANTALLAS/TABLETS DE MÁS DE >768px  */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 768px) and (max-width: 991px){
-  
-.menu{
-    min-height: fit-content;
-}
-    }
-
-/* BREAKPPOINT PARA PANTALLAS GRANDES DESDE >992px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 992px) and (max-width: 1199px){
-   
-.menu{
-    min-height: fit-content;
-}
-    }
-
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1200px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 1200px) and (max-width: 1680px){
-    
-.menu{
-    min-height: fit-content;
-}
-    }
-
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >1681px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-
-@media screen and (min-width: 1681px) and (max-width: 2168px){
-   
-.menu{
-    min-height: fit-content;
-}
-    }
-
-/* BREAKPPOINT PARA PANTALLAS EXTRA GRANDES DESDE >2169px */
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-
-@media screen and (min-width: 2169px) and (max-width: 2560px){
-.menu{
-    min-height: fit-content;
-}
-    }
-
-/* BREAKPPOINT PARA DISPOSITIVOS/TABLETS/PANTALLAS FÍN */
-
-/* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-    </style>
+</script>
 </head>
 
 <body>
     <header id="cabecera">
         <figure id="contEnlaceCorreo">
+            <p id="telefonoContacto">641 92 63 18</p>
             <a href="mailto:jmlucasdelamo@gmail.com" id="marcoCorreo">
                 <img id="fotoCorreo" src="/img/correo-electronico.jpg" alt="correo electrónico"
                     title="Correo Electrónico">
@@ -205,20 +126,19 @@ label{
         </figure>
     </header>
     <nav id="navegacion">
-        <section id="contPadreGridNav">
-            <section></section> <!-- ESPACIO EN BLANCO -->
-            <section>
-                <figure id="">
-                    <a id="marcoLogoCabecera" href="/index.html"><img id="fotoLogoCabecera" src="/img/logoCorporativoCabecera.png" alt=""></a>
+        <div id="contPadreGridNav"> 
+            <div>
+                <figure>
+                    <a id="marcoLogoCabecera" href="/index.html"><img id="fotoLogoCabecera" src="/img/logoCorporativoSuperior.png" alt="Logo Corporativo TejadosMadrid.es" title="Logo Corporativo"></a>
                 </figure>
-            </section>
-            <section></section> <!-- ESPACIO EN BLANCO -->
-            <section>
+            </div>
+            <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
+            <div class="alturaBotones">
                 <!-- MARKETING ONLINE -->
-                <section class="menuDesplegable">
+                <div class="menuDesplegable">
                     <div class="espacio7vh"></div>
                     <button class="menuDesplegableBoton noFlecha">
-                        <a class="letraEnlaces" href="/marketing.html">Marketing</a>
+                        <a href="donde-estamos.html" class="letraEnlaces">Donde estamos</a>
                     </button>
                     <!-- <section class="menuDesplegableLista">
                         <a href="#">Posicionamiento Web</a>
@@ -228,73 +148,53 @@ label{
                         <a href="#">Hosting y Dominios</a>
                         <a href="#">Aplicaciones Online</a>
                     </section> -->
-                </section>
-            </section>
-            <section></section> <!-- ESPACIO EN BLANCO -->
-            <section>
+                </div>
+            </div>
+            <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
+            <div class="alturaBotones">
                 <!-- DISEÑO WEB -->
-                <section class="menuDesplegable">
+                <div class="menuDesplegable">
                     <div class="espacio7vh"></div>
-                    <button class="menuDesplegableBoton noFlecha">
-                        <a class="letraEnlaces" href="/diseno-web.html">Diseño Web</a>
+                    <button class="menuDesplegableBoton">
+                        <a href="donde-estamos.html" class="letraEnlaces">Servicios</a>
                     </button>
-                    <!-- <section class="menuDesplegableLista">
-                        <a href="#">Diseño Web Corporativa</a>
-                        <a href="#">Tiendas Online</a>
-                        <a href="#">Diseño Responsive</a>
-                        <a href="#">Hosting y Dominios</a>
-                        <a href="#">Aplicaciones Web</a>
-                        <a href="#">Proyecto a Medida</a>
-                    </section> -->
-                </section>
-            </section>
-            <section></section> <!-- ESPACIO EN BLANCO -->
-            <section>
-                <!-- DISEÑO GRÁFICO -->
-                <section class="menuDesplegable">
-                    <div class="espacio7vh"></div>
-                    <button class="menuDesplegableBoton noFlecha">
-                        <a class="letraEnlaces" href="/diseno-grafico.html">Diseño Gráfico</a>
-                    </button>
-                    <!-- <section class="menuDesplegableLista">
-                        <a href="#">Logos</a>
-                        <a href="#">Tarjetas</a>
-                        <a href="#">Catálogos</a>
-                        <a href="#">Revistas</a>
-                        <a href="#">Packaging</a>
-                        <a href="#">Identidad Corporativa</a>
-                    </section> -->
-                </section>
-            </section>
-            <section></section> <!-- ESPACIO EN BLANCO -->
-            <section>
+                    <section class="menuDesplegableLista">
+                        <a href="#">Reparación de Tejados y Cubiertas</a>
+                        <a href="#">Impermeabilización de Tejados</a>
+                        <a href="#">Mantenimiento de Canalones y Chimeneas</a>
+                        <a href="#">Reparación de Goteras</a>
+                        <a href="#">Sustitución y Reparación de Tejas</a>
+                    </section> 
+                </div>
+            </div>
+            <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
+            <div class="alturaBotones">
                 <!-- CLIENTES -->
-                <section class="menuDesplegable">
+                <div class="menuDesplegable">
                     <div class="espacio7vh"></div>
                     <button class="menuDesplegableBoton noFlecha">
-                        <a class="letraEnlaces" href="/clientes.html">Clientes</a>
+                    <a href="clientes.html" class="letraEnlaces">Clientes</a>
                     </button>
-                </section>
-            </section>
-            <section></section> <!-- ESPACIO EN BLANCO -->
-            <section>
+                </div>
+            </div>
+            <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
+            <div class="alturaBotones">
                 <!-- CONTACTO -->
-                <section class="menuDesplegable">
+                <div class="menuDesplegable">
                     <div class="espacio7vh"></div>
                     <button class="menuDesplegableBoton noFlecha">
-                        <a class="letraEnlaces" href="/contacto.html">Contacto</a>
+                        <a href="contacto.html" class="letraEnlaces">Contacto</a>
                     </button>
-                </section>
-            </section>
-            <section></section> <!-- ESPACIO EN BLANCO -->
-            <section>
+                </div>
+            </div>
+            <div>
                 <input type="checkbox" id="menu-toggle">
                 <label for="menu-toggle" class="menu-btn">
                     <span></span>
                     <span></span>
                     <span></span>
                 </label>
-                <section class="menu-list">
+                <div class="menu-list">
                     <ul>
                         <li><a href="/marketing.html">Marketing</a></li>
                         <li><a href="/diseno-web.html">Diseño Web</a></li>
@@ -302,75 +202,45 @@ label{
                         <li><a href="/clientes.html">Clientes</a></li>
                         <li><a href="/contacto.html">Contacto</a></li>
                     </ul>
-                </section>
-            </section>
+                </div>
+                </div>
+            </div>
     </nav>
-    <main class="menu">
-        <figure id="marcoCarousel">
-            <img class="fotoCarousel"  src="/img/istockphoto-1127997676-2048x2048.jpg"></img>
-        </figure>
+    <main>
+        <section class="card">
+            <img src="/img/nuestros-clientes.png" class="card-img" alt="Nuestros servicio que realizamos a nuestros clientes" title="nuestros clientes">
+            <section class="card-text">
+            <h1 id="titularFondo1">FORMULARIO DE CONTACTO</h1>
+            </section>
+        </section>
+        <div class="espacio1vh"></div>
         <section>
-            <h1 class="h1">Contacta con nosotros</h1>
-
-                     <section>
-             <form action="" method="get" name="form">
-                     <fieldset id="nombreUsuario" class="secciones1">
-             <!-- ********** NOMBRE USUARIO ********** -->
-                <label for="txtNombre">NOMBRE:</label>
-                <input type="text" name="nombreAlumno" id="txtNombre" minlength="3" maxlength="15" required placeholder="Escribe tu nombre" pattern="^[a-zA-Z\s]+$" onblur="nombreCompleto()" onfocus="iluminaNombre()" onreset="resetNombre()">
-                <label for="txtApellido1">APELLIDO 1:</label>
-                <input type="text" name="apellido1Alumno" id="txtApellido1" minlength="3" maxlength="15" required placeholder="Escribe tu primer apellido" pattern="^[a-zA-Z\s]+$" onblur="nombreCompleto()" onfocus="iluminaApellidos1()">
-                <label for="txtApellido2">APELLIDO 2:</label>
-                <input type="text" name="apellido2Alumno" id="txtApellido2" minlength="3" maxlength="15" required placeholder="Escribe tu segundo apellido" pattern="^[a-zA-Z\s]+$" onblur="nombreCompleto()" onfocus="iluminaApellidos2()">
-                     </fieldset>
-                     <div class="espacio10vh"></div>
-                     <fieldset id="datosUsuario" class="secciones2">
-             <!-- ********** DATOS USUARIO ********** -->
-                <label for="txtDNI">DNI (NIF/NIE):</label>
-                <input type="text" name="numeroDNI" id="txtDNI" minlength="8" maxlength="9" onblur="datosPersonales()" onfocus="iluminaDni()" onchange="compruebaDatosUsuario()">
-                <label for="txtTelefono">TELÉFONO:</label>
-                <input type="number" name="numeroTelefono" id="txtTelefono" onblur="datosPersonales()" onfocus="iluminaTelefono()" onchange="compruebaDatosUsuario()">
-                <label for="txtEmail">EMAIL:</label>
-                <input type="email" name="email" id="txtEmail" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" onblur="datosPersonales()" onfocus="iluminaEmail()" onchange="compruebaDatosUsuario()">
-
-             <!-- ********** CONTROLES DEL FORMULARIO ********** -->
-                <hr>
-                <div class="espacio10vh"></div>
-                        <input type="submit" value="ENVIAR AL FORMULARIO" id="boton1">
-                        <div class="espacio1vh"></div>
-                        <input type="reset" value="BORRAR TODOS LOS CAMPOS" id="boton2" onclick="reset()">
-                     </fieldset>
-                 </form>
-         </section>
-    <script src="/form.js"></script>
-
-<div class="espacio2vh"></div>
+        <h2 class="titular">PÁGINA EN CONSTRUCCIÓN</h2>
+        <!-- <div class="espacio1vh"></div>
+        <h2 class="descripcionSubtitular">Ofrecemos servicio en toda la Comunidad de Madrid y sus alrededores, tanto en ciudades, como pueblos y zonas rurales</h2>
+        <div class="espacio3vh"></div>
+        <p class="descripcionTitular">Estamos en el <strong>corazón de Vallecas</strong>, en la zona de <strong>Felipe de Diego</strong>, donde el pulso del barrio late entre <strong>azoteas que cuentan historias de sol</strong>, <strong>lluvia</strong> y <strong>tiempo</strong>. Desde aquí nace nuestro trabajo: <strong>proteger hogares</strong>, <strong>renovar tejados</strong> y <strong>devolver vida</strong> a cada <strong>subierta</strong> que ha visto demasiados inviernos. Pero no nos quedamos en una <strong>calle</strong> ni en un <strong>distrito</strong>. Desde este punto salimos hacia toda la <strong>Comunidad de Madrid</strong> y extendemos nuestro alcance por <strong>toda España</strong>, llevando soluciones allá donde haya una <strong>gotera</strong>, una <strong>urgencia</strong> o un <strong>tejado</strong> que <strong>pida futuro</strong>.
+        <div class="espacio2vh"></div>
+        <p class="descripcionTitular">Desde nuestra base en <strong>Vallecas</strong>, en <strong>Felipe de Diego</strong>, trabajamos donde el asfalto se mezcla con la vida real y los <strong>tejados</strong> son la primera <strong>línea de defensa</strong> frente al <strong>tiempo</strong>. Aquí <strong>empezamos</strong>, pero no nos quedamos. <strong>Nos movemos</strong> por todo <strong>Madrid</strong>, llegamos a <strong>pueblos</strong>, <strong>ciudades</strong> y <strong>zonas industriales</strong>, y cruzamos <strong>provincias sin problema</strong>. Actuamos en <strong>toda España</strong>: desde núcleos urbanos hasta <strong>viviendas rurales</strong>. Donde haya un <strong>tejado</strong> que <strong>reparar</strong>, <strong>impermeabilizar</strong> o <strong>reconstruir</strong>, allí llegamos con soluciones <strong>firmes</strong>, <strong>experiencia</strong> y <strong>compromiso</strong>. Porque la <strong>cobertura</strong> no entiende de <strong>fronteras</strong>.</p>     -->
+        <div class="espacio3vh"></div>
+        </section>
+        <div class="espacio2vh"></div>
         </section>
     </main>
     <footer>
-        <section id="contFlexPiePagina">
+        <div id="contFlexPiePagina">
                 <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
-            <section>
                 <figure id="marcoLogoInferior">
-                    <img id="fotoLogoInferior" src="/img/logoCorporativoInferior.png" alt="logo corporativo" title="Logo Corporativo">
+                <img id="fotoLogoInferior" src="/img/logoCorporativoInferior.png" alt="logo corporativo de la parte inferior" title="Logo Corporativo">
                 </figure>
-            </section>
-            <section>
                 <div class="espacio05vh"></div> <!-- ESPACIO EN BLANCO -->
-                <h3 id="logoCorpotativo">www.code48k.com</h3>
-            </section>
-            <section>
+                <section id="logoCorpotativo"><h5>www.tejadomadrid.es</h5></section>
                 <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
-                    <h6 id="slogan">Diseño y desarrollo web con optimización para el posicionamiento en buscadores seo y
-                    para todos los dispositivos responsive design</h6>
-            </section>
-        </section>
-        <section>
+                <h6 id="slogan">Ofrecemos soluciones rápidas y duraderas para todo tipo de tejados</h6>
+        </div>
             <div class="espacio1vh"></div> <!-- ESPACIO EN BLANCO -->
             <small id="copyright">Copyright © 2025 www.code48k.com</small>
-        </section>
     </footer>
     <script src="/js/menuNavegacion.js"></script>
 </body>
-
 </html>
