@@ -370,6 +370,26 @@ strong{
     top: -12.75px;
     
 }
+
+.palabrasClaves{ /* PALABRAS CLAVE DE LA WEB. */
+        font-family: "fontServicios", sans-serif;
+        width: 80%;
+        font-size: 1.1rem;
+        text-align: center;
+        margin: auto;
+    }
+
+#resultado {
+        font-family: "fontServicios", sans-serif;
+        font-size: 3.25rem;
+        width: 90%;
+    }
+
+#apartadoImperbiliTejados {
+	background: url('/img/Impermeabilización-tejados-madrid.png') ;
+	background-attachment: fixed;
+	background-size: cover;
+    }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA MÓVILES <374px */
@@ -480,6 +500,16 @@ strong{
         min-height: 5vh;
     }
 
+    .palabrasClaves{ /* PALABRAS CLAVE DE LA WEB. */
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    #resultado {
+        font-size: 3.25rem;
+        width: 90%;
+    }
+
     h3{
         font-size: 1.75rem;
     }
@@ -582,6 +612,16 @@ strong{
         min-height: 5vh;
     }
 
+    .palabrasClaves{ /* PALABRAS CLAVE DE LA WEB. */
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    #resultado {
+        font-size: 3.25rem;
+        width: 90%;
+    }
+
     h3{
         font-size: 1.25rem;
     }
@@ -678,6 +718,16 @@ strong{
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
         min-height: 5vh;
+    }
+
+    .palabrasClaves{ /* PALABRAS CLAVE DE LA WEB. */
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    #resultado {
+        font-size: 3.25rem;
+        width: 90%;
     }
 
     h3{
@@ -782,6 +832,16 @@ strong{
         min-height: 5vh;
     }
 
+    .palabrasClaves{ /* PALABRAS CLAVE DE LA WEB. */
+        width: 80%;
+        font-size: 1.1rem;
+    }
+
+    #resultado {
+        font-size: 3.25rem;
+        width: 90%;
+    }
+
     h3{
         font-size: 1.75rem;
     }
@@ -864,7 +924,7 @@ strong{
         font-size: 1.8rem;
     }
 
-    .descripcionServicios{ /* DESCRIPCIÓN DEL TITULAR CONTROL DEL TAMAÑO. */
+    .descripcion{ /* DESCRIPCIÓN DEL TITULAR CONTROL DEL TAMAÑO. */
         width: 80%;
         font-size: 1.1rem;
     }
@@ -886,6 +946,16 @@ strong{
 
     #aptdo1{ /* TAMAÑO DE LA FONDO ESTÁTICA CON EL TITULAR Y DESCRIPCIÓN */
         min-height: 5vh;
+    }
+
+    .palabrasClaves{ /* PALABRAS CLAVE DE LA WEB. */
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    #resultado {
+        font-size: 3.25rem;
+        width: 90%;
     }
 
     h3{
