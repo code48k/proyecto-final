@@ -372,21 +372,27 @@ strong{
 }
 
 .palabrasClaves{ /* PALABRAS CLAVE DE LA WEB. */
-        font-family: "fontServicios", sans-serif;
-        width: 80%;
-        font-size: 1.1rem;
-        text-align: center;
-        margin: auto;
+    font-family: "fontServicios", sans-serif;
+    width: 80%;
+    font-size: 1.1rem;
+    text-align: center;
+    margin: auto;
     }
 
 #resultado {
-        font-family: "fontServicios", sans-serif;
-        font-size: 3.25rem;
-        width: 90%;
+    font-family: "fontServicios", sans-serif;
+    font-size: 3.25rem;
+    width: 90%;
     }
 
 #apartadoImperbiliTejados {
-	background: url('/img/Impermeabilización-tejados-madrid.png') ;
+	background: url('/img/impermeabilización-tejados-madrid.png') ;
+	background-attachment: fixed;
+	background-size: cover;
+    }
+
+#apartadoLimpiezaMantenimiento {
+	background: url('/img/limpieza-y-mantenimiento-canalones-chimeneas.png') ;
 	background-attachment: fixed;
 	background-size: cover;
     }
