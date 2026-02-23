@@ -35,7 +35,7 @@
 
   <!-- Cambio y Reparación de Tejas -->
   <url>
-    <loc>https://code48k.netlify.app/reparacion-goteras-madrid</loc>
+    <loc>https://code48k.netlify.app/sustitucion-reparacion-tejas</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -74,7 +74,7 @@
   </url>
 
   <!-- Artículos / Blog (opcional) -->
-  <url>
+  <!-- <url>
     <loc>https://code48k.netlify.app/blog/como-detectar-filtraciones</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
@@ -86,6 +86,6 @@
     <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-  </url>
+  </url> -->
 
 </urlset>
