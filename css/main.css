@@ -396,6 +396,12 @@ strong{
 	background-attachment: fixed;
 	background-size: cover;
     }
+
+#apartadoReparacionGoteras {
+	background: url('/img/reparacion-goteras.png') ;
+	background-attachment: fixed;
+	background-size: cover;
+    }
 /* ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* CONTENIDO DEL 'main' FÍN */ /* BREAKPOINT PARA MÓVILES <374px */
