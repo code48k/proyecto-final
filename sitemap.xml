@@ -3,7 +3,7 @@
 
   <!-- Home -->
   <url>
-    <loc>https://code48k.netlify.app/</loc>
+    <loc>https://www.tejadomadrid.es/</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- Página hija: Reparación de Tejados -->
   <url>
-    <loc>https://code48k.netlify.app/reparacion-tejados-madrid</loc>
+    <loc>https://www.tejadomadrid.es/reparacion-tejados-madrid</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -19,7 +19,7 @@
 
   <!-- Reparación de Goteras -->
   <url>
-    <loc>https://code48k.netlify.app/reparacion-goteras-madrid</loc>
+    <loc>https://www.tejadomadrid.es/reparacion-goteras-madrid</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -27,7 +27,7 @@
 
   <!-- Impermeabilización de Tejados -->
   <url>
-    <loc>https://code48k.netlify.app/impermeabilizacion-tejados-madrid</loc>
+    <loc>https://www.tejadomadrid.es/impermeabilizacion-tejados-madrid</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -35,7 +35,7 @@
 
   <!-- Cambio y Reparación de Tejas -->
   <url>
-    <loc>https://code48k.netlify.app/sustitucion-reparacion-tejas</loc>
+    <loc>https://www.tejadomadrid.es/sustitucion-reparacion-tejas</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -43,7 +43,7 @@
 
   <!-- Mantenimiento de Canalones y Chimeneas -->
   <url>
-    <loc>https://code48k.netlify.app/limpieza-y-mantenimiento-canalones-chimeneas-madrid</loc>
+    <loc>https://www.tejadomadrid.es/limpieza-y-mantenimiento-canalones-chimeneas-madrid</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -51,7 +51,7 @@
 
   <!-- Dónde Estamos -->
   <url>
-    <loc>https://code48k.netlify.app/donde-estamos</loc>
+    <loc>https://www.tejadomadrid.es/donde-estamos</loc>
     <lastmod>2026-02-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
