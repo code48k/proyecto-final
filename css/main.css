@@ -160,32 +160,31 @@ strong{
 /* 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-    .card {
-        position: relative;
+.card {
+    position: relative;
+}
+
+.card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
     }
 
-    .card-img {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .card-img2 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        /* height: 3.5%; */
-        object-fit: cover;
-    }
-
-    .card-text {
-        position: relative;
-        z-index: 2;
-    }
+.card-text {
+    position: relative;
+    z-index: 2;
+}
 
 @font-face{ /* FUENTE TIPOGRÁFICA PARA LOS TITULARES*/
     font-family: "fontSourGummy";
