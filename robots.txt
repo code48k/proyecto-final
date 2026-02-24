@@ -8,9 +8,10 @@ Disallow: /dashboard/
 Disallow: /api/
 Disallow: /preview/
 Disallow: /private/
+Disallow: /send_mail/
 
 # Evitar parámetros innecesarios
 Disallow: /*?*
 
 # Sitemap
-Sitemap: https://code48k.netlify.app/sitemap.xml
+Sitemap: https://www.tejadomadrid.es/sitemap.xml
